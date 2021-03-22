@@ -46,7 +46,9 @@ df = pd.concat(
 
 df.japanese = df.japanese.str.replace("</>", "</span>")
 for it, pos in enumerate(all_pos):
-    df.japanese = df.japanese.str.replace(pos, 'span style="color:rgb{}"'.format(c[it]))
+    df.japanese = df.japanese.str.replace(
+        pos, 'span style=""color:rgb{}""'.format(c[it])
+    )
 
 hira_roman = df.japanese.apply(sub_rks)
 df["hira"] = [i[0] for i in hira_roman]
