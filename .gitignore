@@ -1,0 +1,13 @@
+*.img
+*.simg
+.pytest_cache
+__pycache__
+*.egg-info
+output
+.vscode/sftp.json
+hpc/logs/*
+storage/interim
+storage/outputs
+storage/**/*.bib
+storage/external/wanikani
+.ropeproject

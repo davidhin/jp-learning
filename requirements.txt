@@ -1,0 +1,1 @@
+wanikani-api==0.5.1

@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "/home/david/miniconda3/envs/singularity-simple/bin/python",
+  "files.exclude": {
+    ".pytest_cache": true,
+    "**/*.egg-info": true,
+    "**/__pycache__": true,
+    "**/*.img": true,
+    "**/*.simg": true,
+    "**/*.sif": true,
+    "**/*.ropeproject*": true
+  },
+  "python.linting.enabled": true
+}

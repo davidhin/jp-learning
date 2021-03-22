@@ -1,0 +1,25 @@
+japanese,english,notes,tags
+<verb>食べ</><teform>て</>,Eat! (casual),て-form (request),lesson-13
+<noun>クッキ</><obj>を</><verb>食べ</><teform>て</>,Eat cookies!,て-form (request),lesson-13
+<verb>食べ</><teform>て</><adv>ください</>,Please eat (formal),て-form (request),lesson-13
+<verb>見</><teform>て</>,Look!,て-form (request),lesson-13
+<verb>見</><teform>て</><adv>ください</>,Please look,て-form (request),lesson-13
+<noun>黒板</><obj>を</><verb>見</><teform>て</><adv>ください</>,Please look at the blackboard,て-form (request),lesson-13
+<verb>寝</><teform>て</><adv>ください</>,Please sleep!,て-form (request),lesson-13
+<adv>もう</><noun>十一時</>,It's already 11.,て-form (request),lesson-13
+<verb>起き</><teform>て</>,Wake up!,て-form (request),lesson-13
+<verb>食べ</><teform>ている</>,To be eating (casual),て-form + いる (present continuous),lesson-13
+<verb>食べ</><teform>てる</>,To be eating (more casual),て-form + る (present continuous),lesson-13
+<verb>食べ</><teform>ています</>,To be eating (formal),て-form + います (present continuous),lesson-13
+<verb>食べ</><teform>てます</>,To be eating (less formal),て-form + ます (present continuous),lesson-13
+<noun>テレビ</><obj>を</><verb>見</><teform>ている</>,I'm watching TV (now).,て-form + いる (present continuous),lesson-13
+<noun>「Attack on Titan」</><obj>を</><verb>見</><teform>ている</>,I'm watching Attack on Titan,て-form + いる (present continuous),lesson-13
+<adv>最近</><noun>「Attack on Titan」</><obj>を</><verb>見</><teform>ている</>,Recently I've been watching Attack on Titan,て-form + いる (present continuous),lesson-13
+<verb>起き</><teform>ている</>,To be awake,て-form + いる (present continuous),lesson-13
+<subject>赤ちゃん</><obj>は</><verb>寝</><teform>ている</>,The baby is sleeping,て-form + いる (present continuous),lesson-13
+<verb>痩せ</><teform>て</>,(Please) lose weight,て-form (request),lesson-13
+<verb>痩せ</><teform>ている</>,To be thin / being skinny,て-form + いる (present continuous) : Minor exception as it just shows the state,lesson-13
+<verb>教え</><teform>て</><adv>ください</>,Please teach me! (formal),て-form (request),lesson-13
+<noun>日本語</><obj>を</><verb>教え</><teform>て</><adv>ください</>,Please teach me Japanese (formal),て-form (request),lesson-13
+<subject>みさ先生</><obj>は</><noun>日本語</><obj>を</><verb>教え</><teform>ている</>,Misa-sensei is teaching Japanese,て-form + いる (present continuous),lesson-13
+<noun>東京</><obj>で</><noun>英語</><obj>を</><verb>教え</><teform>ている</>,I'm teaching English in Tokyo,て-form + いる (present continuous),lesson-13
