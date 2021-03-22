@@ -11,3 +11,4 @@ storage/outputs
 storage/**/*.bib
 storage/external/wanikani
 .ropeproject
+**/tatoeba*
