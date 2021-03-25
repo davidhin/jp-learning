@@ -46,9 +46,7 @@ df = pd.concat(
 
 df.japanese = df.japanese.str.replace("</>", "</span>")
 for it, pos in enumerate(all_pos):
-    df.japanese = df.japanese.str.replace(
-        pos, 'span style=""color:rgb{}""'.format(c[it])
-    )
+    df.japanese = df.japanese.str.replace(pos, 'span style="color:rgb{}"'.format(c[it]))
 
 hira_roman = df.japanese.apply(sub_rks)
 df["hira"] = [i[0] for i in hira_roman]
@@ -59,7 +57,6 @@ df["used_kanji"] = df.japanese.apply(lambda x: set(jph.get_kanji(x)))
 df["should_learn"] = df.apply(lambda x: x.used_kanji.issubset(known_kanji), axis=1)
 df = df[df.should_learn]
 df = df[["japanese", "english", "notes", "hira", "roman", "tags"]]
-
+df["ID"] = df.japanese.apply(lambda x: re.sub("\\<(.*?)\\>", "", x))
+df = df[["ID"] + list(df.columns[:-1])]
 df.to_csv(jpl.outputs_dir() / "misa_anki.csv", index=0, header=None)
-
-# %%
