@@ -7,7 +7,8 @@
     "**/*.img": true,
     "**/*.simg": true,
     "**/*.sif": true,
-    "**/*.ropeproject*": true
+    "**/*.ropeproject*": true,
+    "**/*.dccache*": true
   },
   "python.linting.enabled": true
 }
