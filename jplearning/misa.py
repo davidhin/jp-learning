@@ -47,6 +47,7 @@ all_pos = [
     "adbph",
     "conjunc",
     "det",
+    "adj",
 ]
 
 df = pd.concat(
