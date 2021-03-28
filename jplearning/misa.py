@@ -40,13 +40,14 @@ c = [
 all_pos = ["verb", "noun", "teform", "obj", "adv", "subject", "adbph", "det"]
 
 df = pd.concat(
-    [pd.read_csv(i) for i in glob(str(jpl.external_dir() / "misa/lesson*.csv"))]
+    [pd.read_csv(i) for i in sorted(glob(str(jpl.external_dir() / "misa/lesson*.csv")))]
 )
 
 
 df.japanese = df.japanese.str.replace("</>", "</span>")
 for it, pos in enumerate(all_pos):
     df.japanese = df.japanese.str.replace(pos, 'span style="color:rgb{}"'.format(c[it]))
+df.notes = df.notes.str.replace("\\n", "<br />", regex=False)
 
 hira_roman = df.japanese.apply(sub_rks)
 df["hira"] = [i[0] for i in hira_roman]
