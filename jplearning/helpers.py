@@ -11,6 +11,18 @@ import jplearning as jpl
 tqdm.pandas()
 
 
+def get_furigana(text, known_kanji={}):
+    """Return furigana replacements."""
+    kks = pykakasi.kakasi()
+    result = kks.convert(text)
+    replacements = {}
+    for item in result:
+        furi = "{}[{}] ".format(item["orig"], item["hira"])
+        if not set(get_kanji(item["orig"])).issubset(known_kanji):
+            replacements[item["orig"]] = furi
+    return replacements
+
+
 def extract_unicode_block(unicode_block, string):
     """Extract and returns all texts from a unicode block from string argument."""
     return re.findall(unicode_block, string)

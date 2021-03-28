@@ -77,10 +77,20 @@ df["hira"] = [i[0] for i in hira_roman]
 df["roman"] = [i[1] for i in hira_roman]
 
 # Filter known kanji
-df["used_kanji"] = df.japanese.apply(lambda x: set(jph.get_kanji(x)))
-df["should_learn"] = df.apply(lambda x: x.used_kanji.issubset(known_kanji), axis=1)
-df = df[df.should_learn]
-df = df[["japanese", "english", "notes", "hira", "roman", "tags"]]
 df["ID"] = df.japanese.apply(lambda x: re.sub("\\<(.*?)\\>", "", x))
 df = df[["ID"] + list(df.columns[:-1])]
+
+
+def insert_furigana(row, known_kanji):
+    """Add furigana to unknown kanjis."""
+    replacements = jph.get_furigana(row.ID, known_kanji)
+    ret = row.japanese
+    for r in replacements.items():
+        ret = ret.replace(r[0], r[1][:-1])
+    return ret
+
+
+df["japanese"] = df.apply(insert_furigana, known_kanji=known_kanji, axis=1)
+
+df = df[["ID", "japanese", "english", "notes", "hira", "roman", "tags"]]
 df.to_csv(jpl.outputs_dir() / "misa_anki.csv", index=0, header=None)
