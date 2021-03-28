@@ -1,0 +1,27 @@
+japanese,english,notes,tags
+<noun>テニス</><obj>を</><teform>して</>,Play tennis!,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>テニス</><obj>を</><teform>している</>,(I'm) playing tennis (now),て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<noun>宿題</><obj>を</><teform>して</><adv>ください</>,Please do your homework,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>宿題</><obj>を</><teform>している</>,I'm doing homework (now),て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<verb>勉強</><teform>して</><adv>ください</>,Please study!,て-form (request)\n(す/する) endings become して,lesson-17
+<verb>勉強</><teform>している</>,I'm studying (now),て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<noun>日本語</><obj>を</><verb>勉強</><teform>している</>,I've been studying Japanese,て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<verb>旅行</><teform>している</>,I've been travelling,て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<verb>消</><teform>して</>,Turn off / delete / erase,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>電気</><obj>を</><verb>消</><teform>して</><adv>ください</>,Please turn the light off,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>写真</><obj>を</><verb>消</><teform>して</><adv>ください</>,Please delete the picture,て-form (request)\n(す/する) endings become して,lesson-17
+<verb>押</><teform>して</>,To push / press,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>ボタン</><obj>を</><verb>押</><teform>して</><adv>ください</>,Please push the button,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>ボタン</><obj>を</><verb>押</><teform>している</>,I'm pushing the button,て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<noun>消しゴム</><obj>を</><verb>貸</><teform>して</><adv>ください</>,Please lend me your eraser,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>本</><obj>を</><verb>貸</><teform>して</>,Lend me a book,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>アパート</><obj>を</><verb>貸</><teform>している</>,"I'm renting an apartment (to someone, not renting from ~)",て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<verb>直</><teform>して</>,Fix (it)!,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>時計</><obj>を</><verb>直</><teform>して</><adv>ください</>,Please fix the watch,て-form (request)\n(す/する) endings become して,lesson-17
+<noun>車</><obj>を</><verb>直</><teform>している</>,I'm fixing a car,て-form + いる (present continuous)\n(す/する) endings become して,lesson-17
+<verb>来</><teform>て</>,Come!,"て-form (request)\n(す/する) endings become して\nEXCEPTION: To come 来る becomes　来ます, and so it also becomes 来て",lesson-17
+<noun>こっち</><verb>来</><teform>て</>,Come here (lit. come this way),"て-form (request)\nくる ending becomes きて\nEXCEPTION: To come 来る becomes　来ます, and so it also becomes 来て\nNote: You could say ここ来て, but we usually stick to　こっち来て.",lesson-17
+<noun>家</><obj>に</><verb>来</><teform>て</><adv>ください</>,Please come to my house,"て-form (request)\nくる ending becomes きて\IRREGULAR: To come 来る becomes　来ます, and so it also becomes 来て",lesson-17
+<verb>持って</><teform>きて</>,Please bring (it),て-form (request)\nくる ending becomes きて\n持ってくる means to bring,lesson-17
+<noun>お菓子</><obj>を</><verb>持って</><teform>きて</><adv>ください</>,Please bring some candy,て-form (request)\nくる ending becomes きて,lesson-17
+<noun>ぱーてぃー</><obj>に</><verb>持ってい</><teform>って</>,Take it to the party,て-form (request)\n持って行く means to take it.\n行く is an exception. Remember that it conjugates to 行って i.e. using the う/つ te conjugation,lesson-17
