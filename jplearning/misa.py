@@ -37,12 +37,34 @@ c = [
     (189, 189, 189),
 ]
 
-all_pos = ["verb", "noun", "teform", "obj", "adv", "subject", "adbph", "det"]
+all_pos = [
+    "verb",
+    "noun",
+    "teform",
+    "obj",
+    "adv",
+    "subject",
+    "adbph",
+    "conjunc",
+    "det",
+]
 
 df = pd.concat(
     [pd.read_csv(i) for i in sorted(glob(str(jpl.external_dir() / "misa/lesson*.csv")))]
 )
 
+# Sanity checks
+for i in df.itertuples():
+    count_la = i.japanese.count("<")
+    count_ra = i.japanese.count(">")
+    count_slash = i.japanese.count("/")
+    assert (i.japanese.count("<") + i.japanese.count(">")) % 2 == 0
+    assert i.japanese.count("<") == i.japanese.count(">"), "Unmatched <> {}".format(
+        i.japanese
+    )
+    assert i.japanese.count("<") / 2 == i.japanese.count(
+        "/"
+    ), "Unmatched </>: {}".format(i.japanese)
 
 df.japanese = df.japanese.str.replace("</>", "</span>")
 for it, pos in enumerate(all_pos):
