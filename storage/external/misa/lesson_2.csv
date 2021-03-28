@@ -1,0 +1,35 @@
+japanese,english,notes,tags
+<det>これ</><obj>は</><noun>紙</><verb>です</>,This (near me) is paper,This/That (これ/それ/あれ),lesson-2
+<det>これ</><obj>は</><noun>ペン</><verb>です</>,"This (near me) is a pen (lit. speaking of this, it is a pen)",This/That (これ/それ/あれ),lesson-2
+<det>それ</><obj>は</><noun>ペン</><verb>です</>,"That (near you) is a pen (near you)",This/That (これ/それ/あれ),lesson-2
+<det>それ</><obj>は</><noun>紙</><verb>です</>,That (near you) is paper,This/That (これ/それ/あれ),lesson-2
+<det>それ</><obj>は</><noun>リボン</><verb>です</>,That (near you) is a ribbon / bow,This/That (これ/それ/あれ),lesson-2
+<det>それ</><obj>は</><adj>かわいい</><noun>リボン</><verb>です</>,That (near you) is a cute ribbon,This/That (これ/それ/あれ),lesson-2
+<det>あれ</><obj>は</><noun>木</><verb>です</>,That (over there) is a tree,This/That (これ/それ/あれ),lesson-2
+<det>これ</><obj>は</><noun>私</><obj>の</><verb>です</>,This is mine,This/That (これ/それ/あれ),lesson-2
+<det>この紙</><obj>は</><adj>白い</><verb>です</>,This (near me) paper is white,This/That + <noun> (この/その/あの),lesson-2
+<det>その</><noun>紙</><obj>は</><adj>白い</><verb>です</>,That paper (near you) is white,This/That + <noun> (この/その/あの),lesson-2
+<det>あの</><noun>木</><obj>は</><adj>大きい</><verb>です</>,That tree (over there) is big.,This/That + <noun> (この/その/あの),lesson-2
+<det>あれ</><obj>は</><adj>大きい</><noun>木</><verb>です</>,That (near you) is a big tree,This/That (これ/それ/あれ),lesson-2
+<subject>私のは</><adj>かわいい</><verb>です</>,Mine is cute,-,lesson-2
+<det>これ</><obj>は</><noun>水</><verb>です</>,This is water,This/That (これ/それ/あれ),lesson-2
+<subject>冬は</><adj>寒い</><verb>です</>,"(Speaking of) winter, it is cold.",Adjectives\nTsumetai = cold (touch) not to be confused with samui = cold (weather),lesson-2
+<subject>ロシアの冬は</><adj>とても寒い</><verb>です</>,Russian winter is very cold,Adjectives\nTsumetai = cold (touch) not to be confused with samui = cold (weather),lesson-2
+<det>この</><noun>水</><obj>は</><adj>冷たい</><verb>です</>,This (near me) water is cold,This/That + <noun> (この/その/あの)\nTsumetai = cold (touch) not to be confused with samui = cold (weather),lesson-2
+<det>これ</><obj>は</><noun>カメラ</><verb>です</>,This is a camera,This/That (これ/それ/あれ),lesson-2
+<det>この</><noun>カメラ</><obj>は</><adj>ピンク</><verb>です</>,This camera is pink,This/That + <noun> (この/その/あの),lesson-2
+<det>この</><noun>映画</><obj>は</><adj>面白い</><verb>です</>,This movie is interesting / fun / entertaining,This/That + <noun> (この/その/あの),lesson-2
+<det>これ</><obj>は</><adj>面白い</><noun>映画</><verb>です</>,This is an interesting movie,This/That (これ/それ/あれ),lesson-2
+<det>この</><noun>ゲーム</><obj>は</><adj>つまんない</><verb>です</>,This game is boring,This/That + <noun> (この/その/あの)\nつまらない is usually つまんない informally,lesson-2
+<det>それ</><obj>は</><noun>時計</><verb>です</>,That thing (you have) is a watch,This/That (これ/それ/あれ),lesson-2
+<det>その</><noun>時計</><obj>は</><adj>かっこいい</><verb>です</><end>ね</>,That watch (you have) is cool!,This/That + <noun> (この/その/あの)\nNe is used like "isnt it" you don't want to stand out and it softens it.,lesson-2
+あ〜、<adj>暑い</><verb>です</><end>ね</>,"It't hot, isn't it...",Ne is used like "isnt it" you don't want to stand out and it softens it.,lesson-2
+<adj>暑い</><end>ね</>,It's hot (colloquial),Ne is used like "isnt it" you don't want to stand out and it softens it.,lesson-2
+<adj>新しい</><noun>アニメ</><obj>は</><adj>面白い</><verb>です</>,The new anime is interesting,Adjectives (omoshiroi -> face is bright -> interesting),lesson-2
+<adj>新しい</><noun>アニメ</><obj>は</><adj>面白い</><verb>です</><end>ね</>,"The new anime is interesting, isn't it?",Adjectives (omoshiroi -> face is bright -> interesting),lesson-2
+<det>この</><adj>新しい</><noun>アニメ</><obj>は</><adj>面白い</><verb>です</>,This new anime is interesting,This/That + <noun> (この/その/あの),lesson-2
+<det>その</><noun>ペン</><obj>は</><adj>高い</><verb>です</><end>か</>,Is that pen (you have) expensive?,This/That + <noun> (この/その/あの)\nか at the end is used as a question marker in formal speech. Not in informal speech,lesson-2
+<noun>ダニエルさん</><obj>の</><noun>ペン</><obj>は</><adj>高い</><verb>です</><end>か</>,"Daniel, is your pen expensive?",Adjectives,lesson-2
+<noun>ダニエルさん</><obj>の</><noun>車</><obj>は</><adj>かっこいい</><verb>です</><end>ね</>,"Daniel, your car is cool, isn't it!",Adjectives,lesson-2
+<det>あれ</><obj>は</><noun>教会</><verb>です</>,That (over there) is a church,This/That (これ/それ/あれ),lesson-2
+<det>あの</><noun>ピザ屋</><obj>の</><noun>ピザ</><obj>は</><adj>美味しい</><verb>です</>,"The pizza at that pizza store is delicious (lit. Speaking of the pizza shop's pizza, it's delicious)",This/That + <noun> (この/その/あの),lesson-2
