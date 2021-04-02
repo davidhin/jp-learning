@@ -84,7 +84,19 @@ df = df[["ID"] + list(df.columns[:-1])]
 
 def insert_furigana(row, known_kanji):
     """Add furigana to unknown kanjis."""
-    replacements = jph.get_furigana(row.ID, known_kanji)
+    hiragana_full = r"[ぁ-ゟ]"
+    replacements_raw = jph.get_furigana(row.ID, known_kanji)
+    replacements = {}
+    for rraw in replacements_raw.items():
+        present_hira = re.findall(hiragana_full, rraw[0])
+        temp_item_1 = rraw[0]
+        temp_item_2 = rraw[1]
+        for h in present_hira:
+            # :TODO: This could have an edge case mistake in the future
+            # e.g. if 手 is unknown in 手て, then it would remove both readings.
+            temp_item_1 = re.sub(h, "", temp_item_1)
+            temp_item_2 = re.sub(h, "", temp_item_2)
+        replacements[temp_item_1] = temp_item_2
     ret = row.japanese
     for r in replacements.items():
         ret = ret.replace(r[0], r[1][:-1])
