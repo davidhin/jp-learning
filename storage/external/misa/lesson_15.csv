@@ -1,32 +1,32 @@
 japanese,english,notes,tags
-<verb>書</><teform>いて</>,Write!,て-form (request)\n(く) ending becomes いて,lesson-15
-<noun>名前</><obj>を</><verb>書</><teform>いて</><adv>ください</>,Please write your name,て-form (request)\n(く) ending becomes いて,lesson-15
-<noun>絵</><obj>を</><verb>描</><teform>いて</><adv>ください</>,Please draw a picture,て-form (request)\n(く) ending becomes いて,lesson-15
-<noun>絵</><obj>を</><verb>描</><teform>いている</>,I'm drawing / painting a picture,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
-<noun>絵</><obj>を</><verb>描</><teform>いています</>,I'm drawing / painting a picture(formal),て-form + います (present continuous)\n(く) ending becomes いて,lesson-15
-<noun>漫画</><obj>を</><verb>描</><teform>いている</>,I'm drawing manga,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
-<noun>漢字</><obj>を</><verb>書</><teform>いている</>,Im writing kanji,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
-<verb>聞</><teform>いて</>,(Please) Listen),て-form (request)\n(く) ending becomes いて,lesson-15
-<noun>音楽</><obj>を</><verb>聞</><teform>いて</><adv>ください</>,Please listen to the music,て-form (request)\n(く) ending becomes いて,lesson-15
-<noun>音楽</><obj>を</><verb>聞</><teform>いている</>,I'm listening to music,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<verb>書い</><teform>て</>,Write!,て-form (request)\n(く) ending becomes いて,lesson-15
+<noun>名前</><obj>を</><verb>書い</><teform>て</><adv>ください</>,Please write your name,て-form (request)\n(く) ending becomes いて,lesson-15
+<noun>絵</><obj>を</><verb>描い</><teform>て</><adv>ください</>,Please draw a picture,て-form (request)\n(く) ending becomes いて,lesson-15
+<noun>絵</><obj>を</><verb>描い</><teform>ている</>,I'm drawing / painting a picture,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<noun>絵</><obj>を</><verb>描い</><teform>ています</>,I'm drawing / painting a picture(formal),て-form + います (present continuous)\n(く) ending becomes いて,lesson-15
+<noun>漫画</><obj>を</><verb>描い</><teform>ている</>,I'm drawing manga,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<noun>漢字</><obj>を</><verb>書い</><teform>ている</>,Im writing kanji,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<verb>聞い</><teform>て</>,(Please) Listen),て-form (request)\n(く) ending becomes いて,lesson-15
+<noun>音楽</><obj>を</><verb>聞い</><teform>て</><adv>ください</>,Please listen to the music,て-form (request)\n(く) ending becomes いて,lesson-15
+<noun>音楽</><obj>を</><verb>聞い</><teform>ている</>,I'm listening to music,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
 <noun>ドア</><obj>が</><verb>開く</>,The door opens,〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
 <verb>開け</><teform>ている</>,I'm opening (something) now,て-form + いる (present continuous)\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
-〜<verb>開</><teform>いている</>,~ is open (now),て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
-<noun>お店</><obj>は</><verb>開</><teform>いている</>,The shop is open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open)\nShop is subject in this instance,lesson-15
+〜<verb>開い</><teform>ている</>,~ is open (now),て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
+<noun>お店</><obj>は</><verb>開い</><teform>ている</>,The shop is open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open)\nShop is subject in this instance,lesson-15
 <noun>お店</><obj>は</><verb>開け</><teform>ている</>,(I'm) opening (the) shop,て-form + いる (present continuous)\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open)\nShop is subject in this instance,lesson-15
-<noun>窓</><obj>は</><verb>開</><teform>いている</>,The window is open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
+<noun>窓</><obj>は</><verb>開い</><teform>ている</>,The window is open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
 <noun>窓</><obj>は</><verb>開け</><teform>ている</>,(I'm) opening (the) window,て-form + いる (present continuous)\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
-<noun>目</><obj>は</><verb>開</><teform>いている</>,Eyes are open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
+<noun>目</><obj>は</><verb>開い</><teform>ている</>,Eyes are open,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
 <noun>目</><obj>を</><verb>開け</><teform>ている</>,(I'm) opening (my) eyes,て-form + いる (present continuous)\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
-<noun>鈴木</><obj>は</><verb>開</><teform>いている</>。<conjunc>でも、</><noun>目</><obj>は</><verb>開</><teform>いている</>。,Suzuki is sleeping. But his eyes are open.,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
-<verb>泣</><teform>いて</>,(Please) cry,て-form (request)\n(く) ending becomes いて,lesson-15
-<verb>泣</><teform>いている</>,To be crying (now),て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
-<noun>赤ちゃん</><obj>は</><verb>泣</><teform>いている</>,A baby is crying,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
-<verb>泳</><teform>いで</>,(Please) swim,て-form (request)\n(ぐ) ending becomes いで,lesson-15
-<verb>泳</><teform>いでいる</>,To be swimming (now),て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
-<verb>泳</><teform>いでいます</>,To be swimming (now) (formal),て-form + います (present continuous)\n(ぐ) ending becomes いで,lesson-15
-<noun>プール</><obj>で</><verb>泳</><teform>いでいる</>,I'm swimming in the pool,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
-<noun>魚</><obj>は</><verb>泳</><teform>いでいる</>,(The) fish is swimming,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
-<verb>嗅</><teform>いで</>,Sniff / smell (it),て-form (request)\n(ぐ) ending becomes いで,lesson-15
-<noun>犬</><obj>は</><verb>嗅</><teform>いでいる</>,A dog is sniffing,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
-<verb>急</><teform>いで</>,Hurry (up)!,て-form (request)\n(ぐ) ending becomes いで,lesson-15
+<noun>鈴木</><obj>は</><verb>開い</><teform>ている</>。<conjunc>でも、</><noun>目</><obj>は</><verb>開い</><teform>ている</>。,Suzuki is sleeping. But his eyes are open.,て-form + いる (present continuous)\n(く) ending becomes いて\n〜を開ける(Transitive verb: I open the door)\n〜開く(Intransitive verb: The door is open),lesson-15
+<verb>泣い</><teform>て</>,(Please) cry,て-form (request)\n(く) ending becomes いて,lesson-15
+<verb>泣い</><teform>ている</>,To be crying (now),て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<noun>赤ちゃん</><obj>は</><verb>泣い</><teform>ている</>,A baby is crying,て-form + いる (present continuous)\n(く) ending becomes いて,lesson-15
+<verb>泳い</><teform>で</>,(Please) swim,て-form (request)\n(ぐ) ending becomes いで,lesson-15
+<verb>泳い</><teform>でいる</>,To be swimming (now),て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
+<verb>泳い</><teform>でいます</>,To be swimming (now) (formal),て-form + います (present continuous)\n(ぐ) ending becomes いで,lesson-15
+<noun>プール</><obj>で</><verb>泳い</><teform>でいる</>,I'm swimming in the pool,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
+<noun>魚</><obj>は</><verb>泳い</><teform>でいる</>,(The) fish is swimming,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
+<verb>嗅い</><teform>で</>,Sniff / smell (it),て-form (request)\n(ぐ) ending becomes いで,lesson-15
+<noun>犬</><obj>は</><verb>嗅い</><teform>でいる</>,A dog is sniffing,て-form + いる (present continuous)\n(ぐ) ending becomes いで,lesson-15
+<verb>急い</><teform>で</>,Hurry (up)!,て-form (request)\n(ぐ) ending becomes いで,lesson-15

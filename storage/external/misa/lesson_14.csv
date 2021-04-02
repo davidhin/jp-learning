@@ -1,39 +1,39 @@
 japanese,english,notes,tags
-<verb>買</><teform>って</><adv>ください</>,Please buy!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<adbph>毎日</><noun>コーヒー</><obj>を</><verb>買</><teform>っている</>,I've been buying coffee everyday,て-form + いる (present continuous)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>会</><teform>って</><adv>ください</>,Please meet!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>彼</><obj>に</><verb>会</><teform>って</>,Meet my boyfriend!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>彼女</><obj>に</><verb>会</><teform>って</>,Meet my girlfriend!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>言</><teform>って</>,Say!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<adv>もう一回</><verb>言</><teform>って</><adv>ください</>,Please say it one more time,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<adv>もう一度</><verb>言</><teform>って</><adv>ください</>,Please say it one more time (more formally),て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>待</><teform>って</>,Wait!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<adv>ちょっと</><verb>待</><teform>って</>,Wait a sec!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>買っ</><teform>て</><adv>ください</>,Please buy!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<adbph>毎日</><noun>コーヒー</><obj>を</><verb>買っ</><teform>ている</>,I've been buying coffee everyday,て-form + いる (present continuous)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>会っ</><teform>て</><adv>ください</>,Please meet!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>彼</><obj>に</><verb>会っ</><teform>て</>,Meet my boyfriend!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>彼女</><obj>に</><verb>会っ</><teform>て</>,Meet my girlfriend!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>言っ</><teform>て</>,Say!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<adv>もう一回</><verb>言っ</><teform>て</><adv>ください</>,Please say it one more time,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<adv>もう一度</><verb>言っ</><teform>て</><adv>ください</>,Please say it one more time (more formally),て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>待っ</><teform>て</>,Wait!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<adv>ちょっと</><verb>待っ</><teform>て</>,Wait a sec!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
 <adv>少々</><verb>お待ち</><adv>ください</>,Please wait a moment (formal),て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って\nOnly really used by employees to customers,lesson-14
-<verb>待</><teform>っている</>,To be waiting,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>待</><teform>っています</>,To be waiting (formal),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>バス</><obj>を</><verb>待</><teform>っている</>,I'm waiting for a bus,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>立</><teform>って</>,(Please) stand (up).,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<adv>ちょっと</><verb>立</><teform>って</>,(Please) stand (up) for a moment,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nちょっと + request / favour makes it more polite like 'can you stand a little bit? can you wait a moment?' etc.,lesson-14
-<verb>立</><teform>っている</>,I'm standing (now),て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>立</><teform>っています</>,I'm standing (now) (formally),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>取</><teform>って</><adv>ください</>,Please take it (from there),て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>あの本</><obj>を</><verb>取</><teform>って</><adv>ください</>,Please take that book,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>塩</><obj>を</><verb>取</><teform>って</><adv>ください</>,Please pass (take) me the salt,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>写真</><obj>を</><verb>取</><teform>って</>,Please take a picture,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>右</><obj>に</><verb>曲が</><teform>って</><adv>ください</>,Please turn right.,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>左</><obj>に</><verb>曲が</><teform>って</><adv>ください</>,Please turn left.,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>電車</><obj>に</><verb>乗</><teform>って</><adv>ください</>,Please get on the train,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>バス</><obj>に</><verb>乗</><teform>って</><adv>ください</>,Please get on the bus,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>新幹線</><obj>に</><verb>乗</><teform>っている</>,I'm on a shinkansen,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>帰</><teform>って</>,Go home!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION kaeTTE not kae-te!!!,lesson-14
+<verb>待っ</><teform>ている</>,To be waiting,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>待っ</><teform>ています</>,To be waiting (formal),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>バス</><obj>を</><verb>待っ</><teform>ている</>,I'm waiting for a bus,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>立っ</><teform>て</>,(Please) stand (up).,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<adv>ちょっと</><verb>立っ</><teform>て</>,(Please) stand (up) for a moment,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nちょっと + request / favour makes it more polite like 'can you stand a little bit? can you wait a moment?' etc.,lesson-14
+<verb>立っ</><teform>ている</>,I'm standing (now),て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>立っ</><teform>ています</>,I'm standing (now) (formally),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>取っ</><teform>て</><adv>ください</>,Please take it (from there),て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>あの本</><obj>を</><verb>取っ</><teform>て</><adv>ください</>,Please take that book,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>塩</><obj>を</><verb>取っ</><teform>て</><adv>ください</>,Please pass (take) me the salt,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>写真</><obj>を</><verb>取っ</><teform>て</>,Please take a picture,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>右</><obj>に</><verb>曲がっ</><teform>て</><adv>ください</>,Please turn right.,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>左</><obj>に</><verb>曲がっ</><teform>て</><adv>ください</>,Please turn left.,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>電車</><obj>に</><verb>乗っ</><teform>て</><adv>ください</>,Please get on the train,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>バス</><obj>に</><verb>乗っ</><teform>て</><adv>ください</>,Please get on the bus,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>新幹線</><obj>に</><verb>乗っ</><teform>ている</>,I'm on a shinkansen,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>帰っ</><teform>て</>,Go home!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION kaeTTE not kae-te!!!,lesson-14
 <verb>着</><teform>て</>,(Please) wear!,て-form (request),lesson-14
 <verb>着</><teform>ている</>,To be wearing,て-form + いる (present continuous),lesson-14
-<verb>切</><teform>って</>,Cut it!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION -iru ending but uses って [confusing with kiru (wear)],lesson-14
-<noun>髪</><obj>を</><verb>切</><teform>って</><adv>ください</>,Please cut my hair,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION -iru ending but uses って [confusing with kiru (wear)],lesson-14
-<verb>行</><teform>って</>,Go!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION for go: itte not ite,lesson-14
-<adbph>毎日</><noun>レストラン</><obj>に</><verb>行</><teform>っている</>,I've been going to the restaurant every day.,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION for go: itte not ite,lesson-14
-<verb>向か</><teform>って</>,Please head (to somewhere).,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<verb>向か</><teform>っている</>,I'm heading / on the way,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>仕事</><obj>に</><verb>向か</><teform>っている</>,I'm on my way to work,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
-<noun>仕事</><obj>に</><verb>向か</><teform>っています</>,I'm on my way to work (formal),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>切っ</><teform>て</>,Cut it!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION -iru ending but uses って [confusing with kiru (wear)],lesson-14
+<noun>髪</><obj>を</><verb>切っ</><teform>て</><adv>ください</>,Please cut my hair,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION -iru ending but uses って [confusing with kiru (wear)],lesson-14
+<verb>行っ</><teform>て</>,Go!,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION for go: itte not ite,lesson-14
+<adbph>毎日</><noun>レストラン</><obj>に</><verb>行っ</><teform>ている</>,I've been going to the restaurant every day.,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って\nEXCEPTION for go: itte not ite,lesson-14
+<verb>向かっ</><teform>て</>,Please head (to somewhere).,て-form (request\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<verb>向かっ</><teform>ている</>,I'm heading / on the way,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>仕事</><obj>に</><verb>向かっ</><teform>ている</>,I'm on my way to work,て-form + いる (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14
+<noun>仕事</><obj>に</><verb>向かっ</><teform>ています</>,I'm on my way to work (formal),て-form + います (present continuous\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-14

@@ -1,23 +1,23 @@
 japanese,english,notes,tags
-<verb>頑張</><teform>って</>,Do your best!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
-<verb>飲</><teform>んで</><adv>ください</>,Please drink,て-form (request)\n(む/ぶ/め) become んで,lesson-16
-<noun>水</><obj>を</><verb>飲</><teform>んで</>,(Please) drink water,て-form (request)\n(む/ぶ/め) become んで,lesson-16
-<noun>お茶</><obj>を</><verb>飲</><teform>んでいる</>,I'm drinking tea,て-form (request)\n(む/ぶ/め) become んで,lesson-16
-<noun>友達</><obj>と</><verb>飲</><teform>んでいる</>,I'm drinking with friends,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<verb>読</><teform>んで</><adv>ください</>,Please read,て-form (request)\n(む/ぶ/め) become んで,lesson-16
-<det>この</><noun>文</><obj>を</><verb>読</><teform>んで</><adv>ください</>,Please read this sentence,て-form (request)\n(む/ぶ/め) become んで,lesson-16
-<noun>本</><obj>を</><verb>読</><teform>んでいる</>,I'm reading a book,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<noun>名前</><obj>は</><noun>マイケル</><adv>です</>。<conjunc>でも、</><noun>マイク</><obj>って</><verb>呼</><teform>んで</><adv>ください</>。,"My name is Michael, but please call me Mike.","て-form + いる (present continuous)\n(む/ぶ/め) become んで\nThis yonnde (call) is the same as to read, yonnde.\nNOTE: This sentence also uses the って construct, which we haven't learned yet. This is for circumstances like 'call me <nickname>'.",lesson-16
+<verb>頑張っ</><teform>て</>,Do your best!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
+<verb>飲ん</><teform>で</><adv>ください</>,Please drink,て-form (request)\n(む/ぶ/め) become んで,lesson-16
+<noun>水</><obj>を</><verb>飲ん</><teform>で</>,(Please) drink water,て-form (request)\n(む/ぶ/め) become んで,lesson-16
+<noun>お茶</><obj>を</><verb>飲ん</><teform>でいる</>,I'm drinking tea,て-form (request)\n(む/ぶ/め) become んで,lesson-16
+<noun>友達</><obj>と</><verb>飲ん</><teform>でいる</>,I'm drinking with friends,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<verb>読ん</><teform>で</><adv>ください</>,Please read,て-form (request)\n(む/ぶ/め) become んで,lesson-16
+<det>この</><noun>文</><obj>を</><verb>読ん</><teform>で</><adv>ください</>,Please read this sentence,て-form (request)\n(む/ぶ/め) become んで,lesson-16
+<noun>本</><obj>を</><verb>読ん</><teform>でいる</>,I'm reading a book,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<noun>名前</><obj>は</><noun>マイケル</><adv>です</>。<conjunc>でも、</><noun>マイク</><obj>って</><verb>呼ん</><teform>で</><adv>ください</>。,"My name is Michael, but please call me Mike.","て-form + いる (present continuous)\n(む/ぶ/め) become んで\nThis yonnde (call) is the same as to read, yonnde.\nNOTE: This sentence also uses the って construct, which we haven't learned yet. This is for circumstances like 'call me <nickname>'.",lesson-16
 <noun>日本</><obj>に</><verb>住む</>,I will live in Japan,Introductory sentence,lesson-16
-<noun>日本</><obj>に</><verb>住</><teform>んでいる</>,I live in Japan,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<adv>どこ</><obj>に</><verb>住</><teform>んでいる</>？,Where do you live?,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<adv>どこ</><obj>に</><verb>住</><teform>んでいますか</>？,Where do you live? (formal),て-form + いますか (present continuous question)\n(む/ぶ/め) become んで,lesson-16
-<noun>オーストラリア</><obj>に</><verb>住</><teform>んでいる</>,I live in Australia,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<verb>遊</><teform>んで</>,(Let's) Play / hang out,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
-<verb>遊</><teform>んでいる</>,To be playing,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<noun>友達</><obj>と</><verb>遊</><teform>んでいる</>,I'm hanging out with friends,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<noun>鳥</><obj>は</><verb>飛</><teform>んでいる</>,Birds are flying,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
-<verb>死</><teform>んで</>,Die!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
-<verb>死</><teform>んで</><adv>ください</>,Please die~,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
-<verb>死</><teform>んでいる</>,To be dead,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<noun>日本</><obj>に</><verb>住ん</><teform>でいる</>,I live in Japan,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<adv>どこ</><obj>に</><verb>住ん</><teform>でいる</>？,Where do you live?,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<adv>どこ</><obj>に</><verb>住ん</><teform>でいますか</>？,Where do you live? (formal),て-form + いますか (present continuous question)\n(む/ぶ/め) become んで,lesson-16
+<noun>オーストラリア</><obj>に</><verb>住ん</><teform>でいる</>,I live in Australia,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<verb>遊ん</><teform>で</>,(Let's) Play / hang out,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
+<verb>遊ん</><teform>でいる</>,To be playing,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<noun>友達</><obj>と</><verb>遊ん</><teform>でいる</>,I'm hanging out with friends,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<noun>鳥</><obj>は</><verb>飛ん</><teform>でいる</>,Birds are flying,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
+<verb>死ん</><teform>で</>,Die!,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
+<verb>死ん</><teform>で</><adv>ください</>,Please die~,て-form (request)\n(うる/つる/(-a/-u/-o)+る) endings become って,lesson-16
+<verb>死ん</><teform>でいる</>,To be dead,て-form + いる (present continuous)\n(む/ぶ/め) become んで,lesson-16
 <verb>亡くなり</><verb>ました</>,Passed away,Past tense,lesson-16

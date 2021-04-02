@@ -16,9 +16,16 @@ def get_furigana(text, known_kanji={}):
     kks = pykakasi.kakasi()
     result = kks.convert(text)
     replacements = {}
+    suffix_removal = ["て", "で"]
     for item in result:
-        furi = "{}[{}] ".format(item["orig"], item["hira"])
         if not set(get_kanji(item["orig"])).issubset(known_kanji):
+            if len(item["orig"]) > 1:
+                for sr in suffix_removal:
+                    if item["orig"][-1] == sr and item["hira"][-1] == sr:
+                        print("Suffix {}: {} {}".format(sr, item["orig"], item["hira"]))
+                        item["orig"] = item["orig"][:-1]
+                        item["hira"] = item["hira"][:-1]
+            furi = "{}[{}] ".format(item["orig"], item["hira"])
             replacements[item["orig"]] = furi
     return replacements
 
