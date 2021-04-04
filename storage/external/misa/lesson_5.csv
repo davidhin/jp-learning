@@ -1,0 +1,19 @@
+japanese,english,notes,tags
+<adj>かわい</><adv>くない</>,Not cute,-い Adjective Negation\n(replace -i with -kunai),lesson-5
+<adj>寒</><adv>くない</>,Not cold,-い Adjective Negation\n(replace -i with -kunai),lesson-5
+<noun>夏</><obj>は</><adj>暑い</><verb>です</>,Summer is hot,-い　Adjectives,lesson-5-tangent
+<noun>冬</><obj>は</><adj>暑</><adv>くない</><verb>です</>,Winter is not hot,-い Adjective Negation\n(replace -i with -kunai)\nRemove です to make informal,lesson-5
+<noun>オーストラリア</><obj>の</><noun>１２月</><obj>は</><adj>寒</><adv>くない</><verb>です</>,December in Australia is not cold,-い Adjective Negation\n(replace -i with -kunai),lesson-5
+<noun>日本語</><obj>は</><adj>難し</><adv>くない</><verb>です</>,Japanese is not difficult,-い Adjective Negation\n(replace -i with -kunai),lesson-5
+<adj>簡単</><adv>じゃない</><verb>です</>,It is not easy,-な Adjective Negation (replace -na with -janai),lesson-5
+<noun>日本人</><adv>じゃない</><verb>です</>,I am not Japanese,Noun negation,lesson-5-tangent
+<adj>暇</>ー！,I'm bored! (because there is nothing to do),Phrase\nhima means free,lesson-5-tangent
+<det>あの</><noun>映画</><obj>は</><adj>つまらない</><verb>です</>,That movie is boring,-い　Adjectives,lesson-5-tangent
+<noun>明日</><obj>は</><adj>暇</><verb>です</>,"I am free tomorrow (as for tomorrow, it's free for me)",-な adjectives,lesson-5-tangent
+<noun>明日</><adj>暇</>？,Are you free tomorrow? (inf.),-な adjectives,lesson-5-tangent
+<adj>暇</><adv>じゃない</><verb>です</>,I'm not free,-な Adjective Negation (replace -na with -janai),lesson-5
+<noun>今週</><obj>は</><adj>暇</><adv>じゃない</><verb>です</>,I am not free this week / I am busy this week,-な Adjective Negation (replace -na with -janai),lesson-5
+<adj>きれい</><adv>じゃない</><verb>です</>,It is not beautiful / clean,-な Adjective Negation (replace -na with -janai),lesson-5
+<noun>公衆トイレ</><obj>は</><adj>きれい</><adv>じゃない</><verb>です</>,Public bathrooms are not clean,-な Adjective Negation (replace -na with -janai),lesson-5
+<noun>公衆トイレ</><obj>は</><adj>臭い</><verb>です</>,Public bathrooms stink,-い Adjective,lesson-5-tangent
+<noun>家</><obj>の</><noun>トイレ</><obj>は</><adj>臭</><adv>くない</><verb>です</>,The bathroom in my house doesn't stink,-い Adjective Negation\n(replace -i with -kunai),lesson-5
