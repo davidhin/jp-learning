@@ -60,6 +60,9 @@ for i in df.itertuples():
     count_la = i.japanese.count("<")
     count_ra = i.japanese.count(">")
     count_slash = i.japanese.count("/")
+    markers = jph.get_all_in_tri_brack(i.japanese)
+    for m in markers:
+        assert m in all_pos + ["/"], "Unknown marker: {}".format(m)
     assert (i.japanese.count("<") + i.japanese.count(">")) % 2 == 0
     assert i.japanese.count("<") == i.japanese.count(">"), "Unmatched <> {}".format(
         i.japanese

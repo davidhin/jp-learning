@@ -11,6 +11,11 @@ import jplearning as jpl
 tqdm.pandas()
 
 
+def get_all_in_tri_brack(s: str) -> list:
+    """Extract all words inside triangular brackets in a string."""
+    return re.findall("\\<(.*?)\\>", s)
+
+
 def get_furigana(text, known_kanji={}):
     """Return furigana replacements."""
     kks = pykakasi.kakasi()
