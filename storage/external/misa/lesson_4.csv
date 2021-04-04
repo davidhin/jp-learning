@@ -1,0 +1,21 @@
+japanese,english,notes,tags
+<noun>モントリオール</><obj>は</><adv>とても</><adj>暑い</><verb>です</>,"Speaking of Montreal, it's very hot",I & NA adjectives,lesson-4
+<noun>犬</><obj>は</><adj>かわいい</><verb>です</>,Dogs are cute,I & NA adjectives,lesson-4
+<det>この</><noun>お茶</><obj>は</><adj>暑い</><verb>です</>,This tea is hot,I & NA adjectives,lesson-4
+<det>この</><noun>お茶</><obj>は</><adv>とても</><adj>暑い</><verb>です</>,This tea is very hot,I & NA adjectives\nとっても is often used instead of とても but is more colloquial,lesson-4
+<noun>カナダ</><obj>の</><noun>冬</><obj>は</><adj>寒い</><verb>です</>,Winter in Canada is cold,I & NA adjectives,lesson-4
+<det>この</><noun>映画</><obj>は</><adj>面白い</><verb>です</>,This movie is interesting,I & NA adjectives,lesson-4
+<noun>犬</><obj>が</><adj>好き</><verb>です</>,I like dogs,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4-tangent
+<noun>ピカチュウ</><obj>が</><adj>好き</><verb>です</>,I like Pikachu,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4-tangent
+<noun>みさ先生</><obj>が</><adj>好き</><verb>です</>,I like Misa-sensei,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4-tangent
+<noun>猫</><obj>が</><adj>好き</><verb>です</>,I like cats,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4-tangent
+<adj>好きな</><noun>本</>,(My) favourite book,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4
+<noun>フィフティ・シェイズ・オブ・グレイ</><obj>は</><noun>私</><obj>の</><adj>好きな</><noun>本</><verb>です</>w,Fifty shades of Gray is my favourite book lol,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4
+<noun>ハリーポッター</><obj>は</><noun>私</><obj>の</><adj>好きな</><noun>本</><verb>です</>,Harry Potter is my favourite book,"NA-adjective (like)\n好きな is actually not a verb To Like, but it is an adjective! Likeable / favorite.",lesson-4
+<adj>簡単な</><noun>漢字</>,Easy kanji,NA-adjective\n-な + noun means do not drop na,lesson-4
+<det>これ</><obj>は</><adj>簡単な</><noun>漢字</><verb>です</>,This is an easy kanji,NA-adjective\n-な + noun means do not drop na,lesson-4
+<det>この</><noun>漢字</><obj>は</><adj>簡単</><verb>です</>,This kanji is easy,NA-adjective\nThere is no な because there is no noun following after kantan!,lesson-4
+<adj>きれいな</><noun>人</>,Beautiful person,NA-adjective\n-な + noun means do not drop na,lesson-4
+<adj>きれいな</><noun>部屋</>,Clean / beautiful room,NA-adjective\n-な + noun means do not drop na,lesson-4
+<noun>はるか</><obj>は</><adj>きれい</><verb>です</>,Haruka is beautiful,NA-adjective\nThere is no な because there is no noun following after na adjective!\nCommon mistake: Kirei is actually Kireina but the na is dropped in these kind of cases,lesson-4
+<det>この</><noun>部屋</><obj>は</><adj>きれい</><verb>です</>,This room is beautiful / clean,NA-adjective\nThere is no な because there is no noun following after na adjective!\nCommon mistake: Kirei is actually Kireina but the na is dropped in these kind of cases,lesson-4
