@@ -19,3 +19,4 @@ japanese,english,notes,tags
 <adj>きれいな</><noun>部屋</>,Clean / beautiful room,NA-adjective\n-な + noun means do not drop na,lesson-4
 <noun>はるか</><obj>は</><adj>きれい</><verb>です</>,Haruka is beautiful,NA-adjective\nThere is no な because there is no noun following after na adjective!\nCommon mistake: Kirei is actually Kireina but the na is dropped in these kind of cases,lesson-4
 <det>この</><noun>部屋</><obj>は</><adj>きれい</><verb>です</>,This room is beautiful / clean,NA-adjective\nThere is no な because there is no noun following after na adjective!\nCommon mistake: Kirei is actually Kireina but the na is dropped in these kind of cases,lesson-4
+<noun>日本語</><obj>は</><adj>簡単</><verb>です</>,Japanese is easy,NA-adjective\nThere is no な because there is no noun following after na adjective!,lesson-4
