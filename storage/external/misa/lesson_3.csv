@@ -1,0 +1,29 @@
+japanese,english,notes,tags
+<det>これ</><obj>は</><noun>帽子</><verb>です</><end>か</>？,Is this a hat?,"Question (formal)\nIf informal, then just say kore ha boushi? with upwards intonation at the end.",lesson-3-tangent
+<det>それ</><obj>は</><noun>コーラ</><verb>です</><end>か</>？,Is that (near you) coke?,Question (formal),lesson-3-tangent
+<noun>なん</><verb>です</><end>か</>？,What is it?,Question,lesson-3-tangent
+<det>これ</><obj>は</><noun>なん</><verb>です</><end>か</>,What is this? (formal),Question,lesson-3-tangent
+<det>これ</><noun>何</>,What is this? (informal),Question,lesson-3-tangent
+<det>あれ</><obj>は</><noun>なん</><verb>です</><end>か</>,What is that (over there)?,Question,lesson-3-tangent
+<det>あれ</><obj>は</><noun>車</><verb>です</>,That (over there) is a car,Answer to What is that (over there)?,lesson-3-tangent
+<det>それ</><obj>は</><noun>なん</><verb>です</><end>か</>,What is that (near you)?,Question\nYou have to reply with kore,lesson-3-tangent
+<det>これ</><obj>は</><noun>絵</><verb>です</>,It is a drawing / picture,Answer to What is that,lesson-3-tangent
+<det>これ</><obj>は</><noun>犬</><obj>の</><noun>絵</><verb>です</>,This is drawing of a dog,の particle\nA no B = A's B / B of A*,lesson-3-tangent
+<noun>花</><obj>の</><noun>絵</><verb>です</>,A drawing of a flower,の particle\nA no B = A's B / B of A*,lesson-3-tangent
+<det>これ</><obj>は</><noun>私</><obj>の</><noun>犬</><obj>の</><noun>写真</><verb>です</>,This is a picture (photo) of my dog.,の particle\nA no B = A's B / B of A*,lesson-3-tangent
+<noun>私</><obj>は</><noun>みさ</><verb>じゃない</>,I'm not Misa (inf.),Noun negation,lesson-3
+<adv>実は</>、<noun>みさ</><verb>じゃないです</>,"Actually / to tell the truth, I'm not Misa　(inf.)",Noun negation,lesson-3
+<det>これ</><obj>は</><noun>紙</><verb>じゃないです</>,This is not paper (inf.),Noun negation,lesson-3
+<det>これ</><obj>は</><noun>ホワイトボード</><verb>です</>,This is a whiteboard (inf.),This is\nTangent answer to This is not paper,lesson-3-tangent
+<noun>みさ</><verb>じゃありませ</>,I'm not Misa (formal speech),Noun negation\nFormal in speech,lesson-3
+<noun>みさ</><verb>ではありませ</>,I'm not Misa (formal written),Noun negation\nFormal in writing,lesson-3
+<noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃない</>,Hello Kitty is not a cat (inf.),Noun negation,lesson-3
+<noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃありませ</>,Hello Kitty is not a cat (form. speech),Noun negation,lesson-3
+<noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃない</>,Wikipedia is not a dictionary (inf.),Noun negation,lesson-3
+<noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃありませ</>,Wikipedia is not a dictionary (form.),Noun negation,lesson-3
+<noun>イルカ</><obj>は</><noun>魚</><verb>じゃない</>,A dolphin is not a fish (inf.),Noun negation,lesson-3
+<noun>イルカ</><obj>は</><noun>魚</><verb>じゃありませ</>,A dolphin is not a fish (form.),Noun negation,lesson-3
+<noun>アメリカ人</><verb>じゃない</>,I'm not American (inf.),Noun negation,lesson-3
+<noun>アメリカ人</><verb>じゃありませ</>,I'm not American (form.),Noun negation,lesson-3
+<det>あれ</><obj>は</><noun>富士山</><verb>です</><end>か</>？,Is that Mr. Fuji?,Question,lesson-3-tangent
+<adv>いいえ</>、<det>あれ</><obj>は</><noun>富士山</><verb>じゃありませ</>。<conjunc>でも</>、<noun>山</><verb>です</>。,"No, that is not Mr. Fuji. But it is a mountain.",Answer to a question: Is that Mt. Fuji?,lesson-3
