@@ -1,6 +1,8 @@
 # %%
+import json
 import os
 import re
+from collections import defaultdict
 from glob import glob
 
 import pandas as pd
@@ -100,3 +102,97 @@ df["japanese"] = df.apply(insert_furigana, known_kanji=known_kanji, axis=1)
 
 df = df[["ID", "japanese", "english", "notes", "hira", "roman", "tags"]]
 df.to_csv(jpl.outputs_dir() / "misa_anki.csv", index=0, header=None)
+
+# %% Generate kanji deck
+unknown_kanji = []
+for i in df.itertuples():
+    kanji_list = jph.get_kanji(i.ID)
+    for k in kanji_list:
+        if k not in known_kanji:
+            ex = i.ID + " -> " + i.english
+            ex = ex.replace(
+                k, '<span style="color:rgb(235, 172, 35)">{}</span>'.format(k)
+            )
+            unknown_kanji.append({"kanji": k, "example": ex})
+ukdf = pd.DataFrame.from_records(unknown_kanji)
+ukdf = ukdf.groupby("kanji").agg({"example": lambda x: "<br />".join(list(x))})
+ukdf = ukdf.reset_index()
+ukdf.to_csv(jpl.outputs_dir() / "misa_kanji_examples.csv", index=0, header=None)
+wk_kanji = pd.read_parquet(jpl.external_dir() / "wanikani/kanji.parquet")
+wk_kanji = wk_kanji[wk_kanji.characters.isin(ukdf.kanji)]
+ukdf = ukdf.merge(wk_kanji, left_on="kanji", right_on="characters", how="outer").drop(
+    columns=["characters", "pos", "srs_stage"]
+)
+ukdf = ukdf.fillna(0)
+ukdf.subject_id = ukdf.subject_id.astype(int)
+
+# Download WK data
+for i in ukdf.subject_id:
+    jph.download_subject(i)
+    data = jph.load_subject(i)
+    if "data" in data:
+        for j in data["data"]["component_subject_ids"]:
+            jph.download_subject(j)
+
+# Join final kanji DF
+cols = ["level", "meaning_mnemonic", "meaning_hint", "reading_mnemonic", "reading_hint"]
+ukdf_wk = defaultdict(list)
+
+level = []
+for i in ukdf.itertuples():
+    subject = jph.load_subject(i.subject_id)
+    for c in cols:
+        if i.subject_id == 0:
+            ukdf_wk[c] += [None]
+        else:
+            ukdf_wk[c] += [subject["data"][c]]
+
+for c in cols:
+    ukdf[c] = ukdf_wk[c]
+
+kanji_replacement_list = [
+    "meaning_mnemonic",
+    "meaning_hint",
+    "reading_mnemonic",
+    "reading_hint",
+]
+for kr in kanji_replacement_list:
+    ukdf[kr] = ukdf[kr].str.replace("<kanji>", '<span style="color:#cf15b0">')
+    ukdf[kr] = ukdf[kr].str.replace("</kanji>", "</span>")
+    ukdf[kr] = ukdf[kr].str.replace("<radical>", '<span style="color:#1582cf">')
+    ukdf[kr] = ukdf[kr].str.replace("</radical>", "</span>")
+
+
+ukdf = ukdf.dropna()
+ukdf.to_csv(jpl.outputs_dir() / "misa_kanji.csv", index=0, header=0)
+
+# # %% Get radicals
+# radicals = []
+# wkuser = jph.get_wk_user()
+# wklevel = wkuser["data"]["level"]
+# for p in glob(str(jpl.external_dir() / "wanikani/*.json")):
+#     with open(p) as f:
+#         data = json.load(f)
+#     if "0.json" in p:
+#         continue
+#     if data["object"] != "radical":
+#         continue
+#     if data["data"]["level"] <= wklevel:
+#         continue
+#     rel_data = {}
+#     rel_data["id"] = data["id"]
+#     rel_data["level"] = data["data"]["level"]
+#     rel_data["slug"] = data["data"]["slug"]
+#     rel_data["character"] = data["data"]["characters"]
+#     if len(data["data"]["character_images"]) > 3:
+#         rel_data["image"] = data["data"]["character_images"][4]["url"]
+#     else:
+#         rel_data["image"] = None
+#     rel_data["meanings"] = ", ".join(
+#         [mean["meaning"] for mean in data["data"]["meanings"]]
+#     )
+#     rel_data["meaning_mnemonic"] = data["data"]["meaning_mnemonic"]
+#     radicals.append(rel_data)
+
+# # %% Get radical DF
+# radical_df = pd.DataFrame.from_records(radicals).sort_values("level")
