@@ -15,15 +15,15 @@ japanese,english,notes,tags
 <adv>実は</>、<noun>みさ</><verb>じゃないです</>,"Actually / to tell the truth, I'm not Misa　(inf.)",Noun negation,lesson-3
 <det>これ</><obj>は</><noun>紙</><verb>じゃないです</>,This is not paper (inf.),Noun negation,lesson-3
 <det>これ</><obj>は</><noun>ホワイトボード</><verb>です</>,This is a whiteboard (inf.),This is\nTangent answer to This is not paper,lesson-3-tangent
-<noun>みさ</><verb>じゃありませ</>,I'm not Misa (formal speech),Noun negation\nFormal in speech,lesson-3
+<noun>みさ</><verb>じゃありません</>,I'm not Misa (formal speech),Noun negation\nFormal in speech,lesson-3
 <noun>みさ</><verb>ではありませ</>,I'm not Misa (formal written),Noun negation\nFormal in writing,lesson-3
 <noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃない</>,Hello Kitty is not a cat (inf.),Noun negation,lesson-3
-<noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃありませ</>,Hello Kitty is not a cat (form. speech),Noun negation,lesson-3
+<noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃありません</>,Hello Kitty is not a cat (form. speech),Noun negation,lesson-3
 <noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃない</>,Wikipedia is not a dictionary (inf.),Noun negation,lesson-3
-<noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃありませ</>,Wikipedia is not a dictionary (form.),Noun negation,lesson-3
+<noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃありません</>,Wikipedia is not a dictionary (form.),Noun negation,lesson-3
 <noun>イルカ</><obj>は</><noun>魚</><verb>じゃない</>,A dolphin is not a fish (inf.),Noun negation,lesson-3
-<noun>イルカ</><obj>は</><noun>魚</><verb>じゃありませ</>,A dolphin is not a fish (form.),Noun negation,lesson-3
+<noun>イルカ</><obj>は</><noun>魚</><verb>じゃありません</>,A dolphin is not a fish (form.),Noun negation,lesson-3
 <noun>アメリカ人</><verb>じゃない</>,I'm not American (inf.),Noun negation,lesson-3
-<noun>アメリカ人</><verb>じゃありませ</>,I'm not American (form.),Noun negation,lesson-3
-<det>あれ</><obj>は</><noun>富士山</><verb>です</><end>か</>？,Is that Mr. Fuji?,Question,lesson-3-tangent
-<adv>いいえ</>、<det>あれ</><obj>は</><noun>富士山</><verb>じゃありませ</>。<conjunc>でも</>、<noun>山</><verb>です</>。,"No, that is not Mr. Fuji. But it is a mountain.",Answer to a question: Is that Mt. Fuji?,lesson-3
+<noun>アメリカ人</><verb>じゃありません</>,I'm not American (form.),Noun negation,lesson-3
+<det>あれ</><obj>は</><noun>富士山</><verb>です</><end>か</>？,Is that Mt. Fuji?,Question,lesson-3-tangent
+<adv>いいえ</>、<det>あれ</><obj>は</><noun>富士山</><verb>じゃありません</>。<conjunc>でも</>、<noun>山</><verb>です</>。,"No, that is not Mt. Fuji. But it is a mountain.",Answer to a question: Is that Mt. Fuji?,lesson-3
