@@ -1,8 +1,11 @@
 """Get wanikani vocab and build sample sentences."""
+import json
+import os
 import re
 
 import pandas as pd
 import pykakasi
+import requests
 from tqdm import tqdm
 from wanikani_api.client import Client
 
@@ -252,3 +255,33 @@ def get_sentence_db():
     jomako["source"] = "jomako"
 
     return pd.concat([totoeba, core6k, jomako])
+
+
+def download_subject(id: int):
+    """Download subject info from wanikani."""
+    jpl.get_dir(jpl.external_dir() / "wanikani")
+    if os.path.exists(jpl.external_dir() / "wanikani/{}.json".format(id)):
+        print("Already downloaded {}".format(id))
+        return
+    data = requests.get(
+        "https://api.wanikani.com/v2/subjects/{}".format(id),
+        headers={"Authorization": "Bearer {}".format(os.getenv("WANIKANI"))},
+    )
+    with open(jpl.external_dir() / "wanikani/{}.json".format(id), "w") as outfile:
+        json.dump(data.json(), outfile, ensure_ascii=False)
+
+
+def load_subject(id: int):
+    """Load json."""
+    with open(jpl.external_dir() / "wanikani/{}.json".format(id)) as f:
+        data = json.load(f)
+    return data
+
+
+def get_wk_user():
+    """Get WK User info."""
+    data = requests.get(
+        "https://api.wanikani.com/v2/user",
+        headers={"Authorization": "Bearer {}".format(os.getenv("WANIKANI"))},
+    )
+    return data.json()
