@@ -115,6 +115,9 @@ def insert_furigana(row, known_kanji):
 df["japanese"] = df.apply(insert_furigana, known_kanji=known_kanji, axis=1)
 
 df = df[["ID", "japanese", "english", "notes", "hira", "roman", "tags"]]
+df["tags"] = df.apply(
+    lambda x: x.tags + " unknown" if "[" in x.japanese else x.tags + " known", axis=1
+)
 df.to_csv(jpl.outputs_dir() / "misa_anki.csv", index=0, header=None)
 
 # %% Generate kanji deck
