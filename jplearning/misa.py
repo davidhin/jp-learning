@@ -134,7 +134,7 @@ for i in df.itertuples():
 ukdf = pd.DataFrame.from_records(unknown_kanji)
 ukdf = ukdf.groupby("kanji").agg({"example": lambda x: "<br />".join(list(x))})
 ukdf = ukdf.reset_index()
-ukdf.to_csv(jpl.outputs_dir() / "misa_kanji_examples.csv", index=0, header=None)
+# ukdf.to_csv(jpl.outputs_dir() / "misa_kanji_examples.csv", index=0, header=None)
 wk_kanji = pd.read_parquet(jpl.external_dir() / "wanikani/kanji.parquet")
 wk_kanji = wk_kanji[wk_kanji.characters.isin(ukdf.kanji)]
 ukdf = ukdf.merge(wk_kanji, left_on="kanji", right_on="characters", how="outer").drop(

@@ -18,7 +18,6 @@ japanese,english,notes,tags
 <det>この</><noun>水</><obj>は</><adj>冷たい</><verb>です</>,This (near me) water is cold,This/That + <noun> (この/その/あの)\nTsumetai = cold (touch) not to be confused with samui = cold (weather),lesson-2
 <det>これ</><obj>は</><noun>カメラ</><verb>です</>,This is a camera,This/That (これ/それ/あれ),lesson-2
 <det>この</><noun>カメラ</><obj>は</><adj>ピンク</><verb>です</>,This camera is pink,This/That + <noun> (この/その/あの),lesson-2
-<det>この</><noun>映画</><obj>は</><adj>面白い</><verb>です</>,This movie is interesting / fun / entertaining,This/That + <noun> (この/その/あの),lesson-2
 <det>これ</><obj>は</><adj>面白い</><noun>映画</><verb>です</>,This is an interesting movie,This/That (これ/それ/あれ),lesson-2
 <det>この</><noun>ゲーム</><obj>は</><adj>つまんない</><verb>です</>,This game is boring,This/That + <noun> (この/その/あの)\nつまらない is usually つまんない informally,lesson-2
 <det>それ</><obj>は</><noun>時計</><verb>です</>,That thing (you have) is a watch,This/That (これ/それ/あれ),lesson-2
