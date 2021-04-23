@@ -1,5 +1,4 @@
 # %%
-import json
 import os
 import re
 from collections import defaultdict
@@ -86,15 +85,30 @@ df["roman"] = [i[1] for i in hira_roman]
 df["ID"] = df.japanese.apply(lambda x: re.sub("\\<(.*?)\\>", "", x))
 df = df[["ID"] + list(df.columns[:-1])]
 
+unknown_words = []
+
 
 def insert_furigana(row, known_kanji):
-    """Add furigana to unknown kanjis."""
+    """Add furigana to unknown kanjis.
+
+    GLOBAL: unknown words = list
+    """
     replacements = jph.get_furigana(row.ID, known_kanji)
     ret = row.japanese
     for r in replacements.items():
         if r[0] not in ret:
             print(r)
         ret = ret.replace(r[0], r[1][:-1])
+        unknown_words.append([r[1][:-1], row.english])
+    kk_inc = jph.get_katakana(row.ID)
+    if len(kk_inc) > 0:
+        unknown_words.append(
+            [
+                "".join(kk_inc)
+                + "[{}]".format(jph.read_kanji_sentence(kk_inc)[0][:-1]),
+                row.english,
+            ]
+        )
     return ret
 
 
@@ -164,35 +178,30 @@ for kr in kanji_replacement_list:
 
 
 ukdf = ukdf.dropna()
-ukdf.to_csv(jpl.outputs_dir() / "misa_kanji.csv", index=0, header=0)
+kanji_level = ukdf[["kanji", "level"]].set_index("kanji").to_dict()["level"]
 
-# # %% Get radicals
-# radicals = []
-# wkuser = jph.get_wk_user()
-# wklevel = wkuser["data"]["level"]
-# for p in glob(str(jpl.external_dir() / "wanikani/*.json")):
-#     with open(p) as f:
-#         data = json.load(f)
-#     if "0.json" in p:
-#         continue
-#     if data["object"] != "radical":
-#         continue
-#     if data["data"]["level"] <= wklevel:
-#         continue
-#     rel_data = {}
-#     rel_data["id"] = data["id"]
-#     rel_data["level"] = data["data"]["level"]
-#     rel_data["slug"] = data["data"]["slug"]
-#     rel_data["character"] = data["data"]["characters"]
-#     if len(data["data"]["character_images"]) > 3:
-#         rel_data["image"] = data["data"]["character_images"][4]["url"]
-#     else:
-#         rel_data["image"] = None
-#     rel_data["meanings"] = ", ".join(
-#         [mean["meaning"] for mean in data["data"]["meanings"]]
-#     )
-#     rel_data["meaning_mnemonic"] = data["data"]["meaning_mnemonic"]
-#     radicals.append(rel_data)
+# %% Generate unknown word CSV
+examples = (
+    pd.DataFrame(unknown_words).drop_duplicates(subset=0).set_index(0).to_dict()[1]
+)
 
-# # %% Get radical DF
-# radical_df = pd.DataFrame.from_records(radicals).sort_values("level")
+word_dict = []
+for word in examples.keys():
+    kanjiword = word.split("[")[0]
+    romaji = word.split("[")[1][:-1]
+    levels = {}
+    for i in kanjiword:
+        if i in kanji_level:
+            levels[i] = kanji_level[i]
+    word_dict.append(
+        {
+            "kanji": kanjiword,
+            "romaji": romaji,
+            "levels": levels,
+            "example": examples[word],
+        }
+    )
+word_df = pd.DataFrame.from_records(word_dict)
+word_df["translation"] = ""
+word_df["mnemonic"] = ""
+word_df.to_csv(jpl.interim_dir() / "unknown_words.csv", index=0)

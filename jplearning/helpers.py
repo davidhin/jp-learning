@@ -53,6 +53,11 @@ def get_kanji(text):
     return extract_unicode_block(r"[㐀-䶵一-鿋豈-頻]", text)
 
 
+def get_katakana(text):
+    """Get Katakana from text."""
+    return extract_unicode_block(r"[゠-ヿ]", text)
+
+
 def read_kanji_sentence(text):
     """Get hiragana/romaji from kanji sentence."""
     kks = pykakasi.kakasi()
