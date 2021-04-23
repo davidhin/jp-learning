@@ -16,7 +16,7 @@ japanese,english,notes,tags
 <det>これ</><obj>は</><noun>紙</><verb>じゃないです</>,This is not paper (inf.),Noun negation,lesson-3
 <det>これ</><obj>は</><noun>ホワイトボード</><verb>です</>,This is a whiteboard (inf.),This is\nTangent answer to This is not paper,lesson-3-tangent
 <noun>みさ</><verb>じゃありません</>,I'm not Misa (formal speech),Noun negation\nFormal in speech,lesson-3
-<noun>みさ</><verb>ではありませ</>,I'm not Misa (formal written),Noun negation\nFormal in writing,lesson-3
+<noun>みさ</><verb>ではありません</>,I'm not Misa (formal written),Noun negation\nFormal in writing,lesson-3
 <noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃない</>,Hello Kitty is not a cat (inf.),Noun negation,lesson-3
 <noun>ハローキティ</><obj>は</><noun>猫</><verb>じゃありません</>,Hello Kitty is not a cat (form. speech),Noun negation,lesson-3
 <noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃない</>,Wikipedia is not a dictionary (inf.),Noun negation,lesson-3
