@@ -2,6 +2,7 @@
 import json
 import os
 import re
+from typing import List
 
 import pandas as pd
 import pykakasi
@@ -10,6 +11,7 @@ from tqdm import tqdm
 from wanikani_api.client import Client
 
 import jplearning as jpl
+from jplearning.constants import ALL_POS
 
 tqdm.pandas()
 
@@ -68,6 +70,12 @@ def read_kanji_sentence(text):
         hira += item["hira"] + " "
         roman += item["hepburn"] + " "
     return [hira, roman]
+
+
+def rm_html_apply_rks(text):
+    """Remove html tags before applying read_kanji_sentence()."""
+    text = re.sub("\\<(.*?)\\>", "", text)
+    return read_kanji_sentence(text)
 
 
 def get_vocab_df(api_key, sync_vocab=False, type="kanji"):
@@ -262,11 +270,12 @@ def get_sentence_db():
     return pd.concat([totoeba, core6k, jomako])
 
 
-def download_subject(id: int):
+def download_subject(id: int, verbose: int = 0):
     """Download subject info from wanikani."""
     jpl.get_dir(jpl.external_dir() / "wanikani")
     if os.path.exists(jpl.external_dir() / "wanikani/{}.json".format(id)):
-        print("Already downloaded {}".format(id))
+        if verbose > 0:
+            print("Already downloaded {}".format(id))
         return
     data = requests.get(
         "https://api.wanikani.com/v2/subjects/{}".format(id),
@@ -290,3 +299,79 @@ def get_wk_user():
         headers={"Authorization": "Bearer {}".format(os.getenv("WANIKANI"))},
     )
     return data.json()
+
+
+def assign_wklevel_to_kanji(kanjis: list):
+    """Return a dict of wklevel assigned to a list of given kanji.
+
+    Example:
+    assign_wklevel_to_kanji(['板', '寝', '寝'])
+    >>> {'板': 29, '寝': 22}
+
+    Args:
+        kanjis (list): A list of kanji.
+    """
+    ukdf = pd.DataFrame(kanjis, columns=["kanji"])
+    wk_kanji = pd.read_parquet(jpl.external_dir() / "wanikani/kanji.parquet")
+    wk_kanji = wk_kanji[wk_kanji.characters.isin(ukdf.kanji)]
+    ukdf = ukdf.merge(
+        wk_kanji, left_on="kanji", right_on="characters", how="outer"
+    ).drop(columns=["characters", "pos", "srs_stage", "meanings", "readings"])
+    ukdf = ukdf.fillna(0)
+    ukdf.subject_id = ukdf.subject_id.astype(int)
+
+    # Download WK data
+    for i in ukdf.subject_id:
+        download_subject(i)
+        data = load_subject(i)
+        if "data" in data:
+            for j in data["data"]["component_subject_ids"]:
+                download_subject(j)
+
+    # Join final kanji DF
+    ukdf["level"] = ukdf.apply(
+        lambda x: load_subject(x.subject_id)["data"]["level"]
+        if x.subject_id != 0
+        else -1,
+        axis=1,
+    )
+
+    ukdf = ukdf.dropna()
+    kanji_level = ukdf[["kanji", "level"]].set_index("kanji").to_dict()["level"]
+    return kanji_level
+
+
+def sanity_check_notes(notes: List[str]):
+    """Perform simple string counting to validate card correctness.
+
+    Example input:
+    ['<verb>食べ</><teform>て</>',
+    '<noun>クッキ</><obj>を</><verb>食べ</><teform>て</>',
+    '<verb>食べ</><teform>て</><adv>ください</>']
+
+    """
+    for i in notes:
+        count_la = i.count("<")
+        count_ra = i.count(">")
+        count_slash = i.count("/")
+        markers = get_all_in_tri_brack(i)
+        for m in markers:
+            assert m in ALL_POS + ["/"], "Unknown marker: {}".format(m)
+        assert (count_la + count_ra) % 2 == 0
+        assert count_la == count_ra, "Unmatched <> {}".format(i)
+        assert count_la / 2 == count_slash, "Unmatched </>: {}".format(i)
+
+
+def get_katakana_parts(sentence: str):
+    """Extract katakana words from japanese sentence."""
+    kk_inc = set(get_katakana(sentence))
+    kk_words = []
+    kk_word = ""
+    for ch in sentence:
+        if ch in kk_inc:
+            kk_word += ch
+        else:
+            kk_words.append(kk_word)
+            kk_word = ""
+    kk_words = [i for i in kk_words if len(i) > 0 and i != "ー"]
+    return kk_words
