@@ -121,29 +121,3 @@ dictforms = pd.DataFrame.from_dict(dictforms.items()).drop_duplicates()
 dictforms.columns = ["word", "root"]
 dictforms = dictforms[dictforms.word != dictforms.root]
 dictforms.to_csv(jpl.interim_dir() / "auto_mappings.csv", index=0)
-
-# %%
-# ukwdf = []
-# for row in df.itertuples():
-#     sentence = row.ID
-#     dictform_tups = list(jph.get_unknown_dictform_words(sentence, known_kanji).items())
-#     ukwdf += [[i[1], row.ID, row.english] for i in dictform_tups]
-#     kk = jph.get_katakana_parts(row.ID)
-#     ukwdf += [[k, row.ID, row.english] for k in kk]
-# ukwdf = pd.DataFrame(ukwdf, columns=["word", "japanese", "example"])
-# ukwdf = ukwdf.drop_duplicates(subset="word")
-# ukwdf[["hira"]] = [i[0] for i in ukwdf.word.apply(jph.read_kanji_sentence)]
-# ukwdf["levels"] = ukwdf.word.apply(
-#     lambda x: dict([[i, kanji_level[i]] for i in x if i in kanji_level])
-# )
-# ukwdf["translation"] = ""
-# ukwdf["mnemonic"] = ""
-# ukwdf[
-#     ["word", "hira", "levels", "example", "japanese", "translation", "mnemonic"]
-# ].to_csv(jpl.interim_dir() / "no_custom_word_meaning.csv", index=0)
-
-# # %%
-# custom_mnemonics = pd.read_csv(jpl.external_dir() / "custom_kanji_cards.csv")
-# custom_mnemonics
-# ukwdf[~ukwdf.word.isin(custom_exists)]
-# custom_kanji_cards[~custom_kanji_cards.kanji.isin(set(ukwdf.word))]
