@@ -4,6 +4,7 @@ import os
 import re
 from typing import List
 
+import MeCab
 import pandas as pd
 import pykakasi
 import requests
@@ -375,3 +376,20 @@ def get_katakana_parts(sentence: str):
             kk_word = ""
     kk_words = [i for i in kk_words if len(i) > 0 and i != "ー"]
     return kk_words
+
+
+def get_unknown_dictform_words(sentence: str, known_kanji: set) -> dict:
+    """Get dictionary form of unknown words given a sentence and set of known kanji."""
+    tagger = MeCab.Tagger()
+    words_dict = [i.split() for i in tagger.parse(sentence).split("\n")]
+    dict_forms = {}
+    for word in words_dict:
+        if word[0] == "EOS":
+            break
+        if len(word) > 3:
+            dict_forms[word[0]] = word[3]
+    keep = {}
+    for item in dict_forms.items():
+        if not set(get_kanji(item[0])).issubset(known_kanji):
+            keep[item[0]] = item[1]
+    return keep
