@@ -22,7 +22,7 @@ japanese,english,notes,tags
 <noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃない</>,Wikipedia is not a dictionary (inf.),Noun negation,lesson-3
 <noun>ウィキペディア</><obj>は</><noun>辞書</><verb>じゃありません</>,Wikipedia is not a dictionary (form.),Noun negation,lesson-3
 <noun>イルカ</><obj>は</><noun>魚</><verb>じゃない</>,A dolphin is not a fish (inf.),Noun negation,lesson-3
-<noun>イルカ</><obj>は</><noun>魚</><verb>じゃありません</>,A dolphin is not a fish (form.),Noun negation,lesson-3
+<noun>イルカ</><obj>は</><noun>魚</><verb>じゃありません</>,A dolphin is not a fish (form. speech),Noun negation,lesson-3
 <noun>アメリカ人</><verb>じゃない</>,I'm not American (inf.),Noun negation,lesson-3
 <noun>アメリカ人</><verb>じゃありません</>,I'm not American (form.),Noun negation,lesson-3
 <det>あれ</><obj>は</><noun>富士山</><verb>です</><end>か</>？,Is that Mt. Fuji?,Question,lesson-3-tangent

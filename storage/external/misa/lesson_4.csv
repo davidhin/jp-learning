@@ -1,7 +1,7 @@
 japanese,english,notes,tags
 <noun>モントリオール</><obj>は</><adv>とても</><adj>暑い</><verb>です</>,"Speaking of Montreal, it's very hot",I & NA adjectives,lesson-4
 <noun>犬</><obj>は</><adj>かわいい</><verb>です</>,Dogs are cute,I & NA adjectives,lesson-4
-<det>この</><noun>お茶</><obj>は</><adj>暑い</><verb>です</>,This tea is hot,I & NA adjectives,lesson-4
+<det>この</><noun>お茶</><obj>は</><adj>熱い</><verb>です</>,This tea is hot,I & NA adjectives,lesson-4
 <det>この</><noun>お茶</><obj>は</><adv>とても</><adj>熱い</><verb>です</>,This tea is very hot,I & NA adjectives\nとっても is often used instead of とても but is more colloquial,lesson-4
 <noun>カナダ</><obj>の</><noun>冬</><obj>は</><adj>寒い</><verb>です</>,Winter in Canada is cold,I & NA adjectives,lesson-4
 <det>この</><noun>映画</><obj>は</><adj>面白い</><verb>です</>,This movie is interesting,I & NA adjectives,lesson-4
