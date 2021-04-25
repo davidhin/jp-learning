@@ -73,8 +73,8 @@ for i in df.itertuples():
 kanji_level = jph.assign_wklevel_to_kanji(unknown_kanji)
 
 # Generate unknown word CSV
-custom_kanji_cards = pd.read_csv(jpl.external_dir() / "custom_kanji_cards.csv")
-custom_kanji_cards.to_csv(jpl.outputs_dir() / "misa_words.csv", index=0, header=0)
+custom_mnemonics = pd.read_csv(jpl.external_dir() / "custom_mnemonics.csv")
+custom_mnemonics.to_csv(jpl.outputs_dir() / "misa_words.csv", index=0, header=0)
 custom_mappings = (
     pd.read_csv(jpl.external_dir() / "custom_mappings.csv")
     .set_index("word")
@@ -82,7 +82,7 @@ custom_mappings = (
 )
 
 # Interrim file to help add new unknown words
-custom_exists = set(custom_kanji_cards.kanji)
+custom_exists = set(custom_mnemonics.kanji)
 uwdf = pd.DataFrame(unknown_words)
 uwdf = uwdf.sort_values(1)
 examples = uwdf.drop_duplicates(subset=0).set_index(0).to_dict()[1]
@@ -120,4 +120,5 @@ for row in df.itertuples():
 dictforms = pd.DataFrame.from_dict(dictforms.items()).drop_duplicates()
 dictforms.columns = ["word", "root"]
 dictforms = dictforms[dictforms.word != dictforms.root]
+dictforms = dictforms[~dictforms.word.isin(custom_mappings.keys())]
 dictforms.to_csv(jpl.interim_dir() / "auto_mappings.csv", index=0)
