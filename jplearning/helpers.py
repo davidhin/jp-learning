@@ -27,7 +27,7 @@ def get_furigana(text, known_kanji={}):
     kks = pykakasi.kakasi()
     result = kks.convert(text)
     replacements = {}
-    suffix_removal = ["て", "で", "く"]
+    suffix_removal = ["て", "で", "く", "か"]
     for item in result:
         if not set(get_kanji(item["orig"])).issubset(known_kanji):
             if len(item["orig"]) > 1:

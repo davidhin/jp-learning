@@ -1,0 +1,47 @@
+japanese,english,notes,tags
+<adj>かわい</><verb>かった</>,was cute,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<noun>子供</><obj>の</><noun>時</>、<adj>かわい</><verb>かったです</>,"when I was a child, I used to be cute",Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adv>もう</><adj>かわい</><adv>くない</><verb>です</>,I'm not cute anymore,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<subject>今は</><adj>かわい</><adv>くない</><verb>です</>,I'm not cute now,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<adj>かわい</><adv>かった</><verb>です</>。<conjunc>でも、</><subject>今は</><adj>かわい</><adv>くない</><verb>です</>。,"I was cute, but now, I'm not.",Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adj>面白</><adv>くない</>,Not funny / interesting,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<noun>スターウォーズ</><obj>は</><adj>面白</><verb>かったです</>,Star wars was interesting,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<subject>姉は</><adj>背が高い</><verb>です</>。,My (older) sister is tall.,"Adjectives\nNote - Takai can only be used for objects. If we want to talk about people, we have to use segatakai (背が高い).\nThis comes from 背 (se) = height and 背中 = back (the body part)",lesson-6-tangent
+<det>この</><noun>時計</><obj>は</><adj>高</><verb>かったです</>,This watch was expensive,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adj>暖か</><adv>くない</>,Not warm,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<adj>暖か</><verb>かった</>,Was warm,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<noun>お金</><obj>が</><verb>なかった</>,I didn't have money,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<adj>寒</><adv>くな</><verb>かった</>,It was not cold,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<adj>美味し</><adv>くない</>,Not tasty,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<noun>寿司</><obj>は</><adj>美味し</><adv>くな</><verb>かった</>,The sushi was not tasty,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<adj>安</><adv>くない</>,(It is) not cheap,-い Adjective Negation\n(replace -i with -kunai),lesson-6-tangent
+<adj>安</><verb>かった</>,(It) Was cheap,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adj>安</><adv>くな</><verb>かった</>,(It) Was not cheap,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<noun>車</><obj>は</><adj>安</><adv>くな</><verb>かった</>,The car was not cheap,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<noun>子供</><verb>でした</>,I was a child (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<noun>子供</><verb>だった</>,I was a child (informal),Past-tense (was - informal) for noun / な adjective,lesson-6
+<adj>静か</><verb>でした</>,It was quiet (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<adj>静か</><verb>だった</>,It was quiet (informal),Past-tense (was - informal) for noun / な adjective ,lesson-6
+<noun>試験</><obj>は</><adj>簡単</><verb>でした</>,The exam was easy (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<noun>試験</><obj>は</><adj>簡単</><verb>だった</>,The exam was easy (informal),Past-tense (was - informal) for noun / な adjective ,lesson-6
+<adj>きれい</><verb>でした</>,(It) was beautiful / clean (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<adj>きれい</><verb>だった</>,(It) was beautiful / clean (informal),Past-tense (was - informal) for noun / な adjective ,lesson-6
+<noun>富士山</><obj>は</><adj>きれい</><verb>でした</>,Mt. Fuji was beaufitul (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<noun>富士山</><obj>は</><adj>きれい</><verb>だった</>,Mt. Fuji was beaufitul (informal),Past-tense (was - informal) for noun / な adjective,lesson-6
+<adj>静か</><adv>じゃな</><verb>かった</>,(It) was not quiet,Past-tense negative (was) for noun / な adjective\nじゃない　-> じゃなかった,lesson-6
+<adj>きれい</><adv>じゃな</><verb>かった</>,(It) was not beautiful,Past-tense negative (was) for noun / な adjective\nじゃない　-> じゃなかった,lesson-6
+<adj>簡単</><adv>じゃな</><verb>かった</>,(It) was not easy,Past-tense negative (was) for noun / な adjective\nじゃない　-> じゃなかった,lesson-6
+<adj>暑</><verb>かった</>,It was hot (weather),Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adj>暑</><adv>くな</><verb>かった</>,It was not hot (weather),Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<adj>暇</><verb>でした</>,I had (free) time / I was bored (formal),Past-tense (was - formal) for noun / な adjective,lesson-6
+<adj>暇</><adv>じゃな</><verb>かった</>,I wasn't free / I didn't have (free) time,Past-tense negative (was) for noun / な adjective\nじゃない　-> じゃなかった,lesson-6
+<adj>良</><adv>くない</>,Not good,"-い Adjective Negation\n(replace -i with -kunai)\nGood is an exception. Its not ii-kunai, but yokunai.",lesson-6-tangent
+<noun>頭</><obj>が</><adj>いい</>,(Someone) is smart (lit. the head is good),Phrase,lesson-6-tangent
+<noun>頭</><obj>が</><adj>良</><adv>くない</>,(Someone) is not smart,"-い Adjective Negation\n(replace -i with -kunai)\nGood is an exception. Its not ii-kunai, but yokunai.",lesson-6-tangent
+<adj>良</><verb>かった</>,Was good,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<noun>映画</><obj>は</><adj>良</><verb>かった</>,The movie was good,Past-tense (was) for い Adjective\nChange い into かった,lesson-6
+<adj>良</><adv>くな</><verb>かった</>,Was not good,Past-tense negative (was not) for い Adjective\nChange ない into なかった,lesson-6
+<noun>ミッキーマウス</><obj>は</><adj>かっこいい</><verb>です</>,Mickey Mouse is cool / handsome,Tangent regarding kakkoii,lesson-6-tangent
+<noun>ミッキーマウス</><obj>は</><adj>かっこよくない</><verb>です</>,Mickey Mouse is not cool / handsome,"-い Adjective Negation\n(replace -i with -kunai)\nEXCEPTION instead of kakko-kunai, its kakko-yokunai",lesson-6-tangent
+<adj>かっこ</><adj>よ</><verb>かった</>,Was cool / handsome,"Past-tense (was) for い Adjective\nChange い into かった\nEXCEPTION instead of kakko-katta, its kakko-yokatta",lesson-6
+<adj>かっこ</><adj>よ</><adv>くな</><verb>かった</>,Was not cool / handsome,"Past-tense negative (was not) for い Adjective\nChange ない into なかった\nEXCEPTION instead of kakko-kunakatta, its kakko-yokunakatta",lesson-6
