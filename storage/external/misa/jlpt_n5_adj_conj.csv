@@ -1,0 +1,145 @@
+japanese,english,notes,tags
+<adj>大切な</><noun>物</>,Important thing,-な adjective + noun,jlpt-n5-adjective-conjunction
+<adj>静かな</><noun>人</>,Quiet person,-な adjective + noun,jlpt-n5-adjective-conjunction
+<adj>静かな</><noun>部屋</>,Quiet room,-な adjective + noun,jlpt-n5-adjective-conjunction
+<det>あの</><noun>部屋</><obj>は</><adj>静か</>,That room is quiet,-な adjective alone drops -な,jlpt-n5-adjective-conjunction
+<adj>かわい</><adv>くない</>,Not cute,-い adjective negation,jlpt-n5-adjective-conjunction
+<noun>ノート</><obj>を</><verb>買った</>,I bought a notebook,past tense,jlpt-n5-adjective-conjunction
+<adj>かわい</><verb>かった</>,(It) was cute,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>かわい</><adv>くな</><verb>かった</>,(It) was not cute,-い adjective negative past tense,jlpt-n5-adjective-conjunction
+<adj>静か</><verb>じゃない</>,It's not quiet (informal),-な adjective negation (informal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>じゃありません</>,It's not quiet (formal speech),-な adjective negation (formal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>だった</>,It was quiet (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>でした</>,It was quiet (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>じゃなかった</>,It was not quiet (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>ではありませんでした</>,It was not quiet (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<verb>食べ</><adv>ませ</>,I don't eat,Verb negation,jlpt-n5-adjective-conjunction
+<verb>食べ</><adv>ません</><verb>でした</>,I didn't eat,Verb negation past tense,jlpt-n5-adjective-conjunction
+<adj>静か</><verb>じゃなかった</>,It was not quiet (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>静か</><verb>ではありませんでした</>,It was not quiet (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<adj>大き</><adv>くない</>,Not big,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>大き</><verb>かった</>,Was big,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>大き</><adv>くなかった</>,Was not big,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>学校</><obj>は</><adj>大き</><adv>くな</><verb>かった</>,The school was not big,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<adj>小さ</><adv>くない</>,Not small,い adjective negation,jlpt-n5-adjective-conjunction
+<adj>小さ</><verb>かった</>,Was small,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>小さ</><adv>くな</><verb>かった</>,Was not small,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>字</><obj>が</><adj>小さい</><verb>です</>,The letters are small,-い adjective,jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>じゃない</>,Not beautiful (informal),-な adjective negation (informal),jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>ではありません</>,Not beautiful (formal),-な adjective negation (formal),jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>だった</>,Was beautiful (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>でした</>,Was beautiful (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>じゃなかった</>,Was not beautiful (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>きれい</><verb>ではありませんでした</>,Was not beautiful (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<adj>きれいな</><noun>公園</>,Beautiful park,-な adjective + noun,jlpt-n5-adjective-conjunction
+<noun>トイレ</><obj>は</><adj>きれい</><verb>じゃなかった</>,The toilet was not clean (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<noun>トイレ</><obj>は</><adj>きれい</><verb>ではありませんでした</>,The toilet was not clean (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<adj>汚</><adv>くない</>,Not dirty,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>汚</><adv>かった</>,Was dirty,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>汚</><adv>くなかった</>,Was not dirty,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>お父さん</><obj>の</><noun>靴下</><obj>は</><adj>汚い</>,My dad's socks are dirty,-い adjective,jlpt-n5-adjective-conjunction
+<noun>父</><obj>の</><noun>靴下</><obj>は</><adj>汚い</><verb>です</>,My father's socks are dirty (formal),-い adjective,jlpt-n5-adjective-conjunction
+<adj>暑</><adv>くない</>,Not hot (weather),-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>暑</><adv>くな</><verb>かった</>,Was not hot (weather),-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>日本</><obj>の</><noun>夏</><obj>は</><adj>暑い</>,Japanese summer is hot,-い adjective,jlpt-n5-adjective-conjunction
+<noun>お皿</><obj>は</><adj>熱</><verb>かった</>,The plate was hot,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>寒</><adv>くない</>,Not cold (weather),-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>寒</><verb>かった</>,Was cold (weather),-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>寒</><adv>くな</><verb>かった</>,Was not cold (weather),-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>１０月</><obj>は</><adj>寒</><adv>くな</><verb>かった</>,It was not cold in October,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<adj>冷た</><adv>くない</>,Not cold (thing),-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>冷た</><verb>かった</>,Was cold (thing),-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>冷た</><adv>くな</><verb>かった</>,Was not cold (thing),-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>水</><obj>は</><adj>冷た</><verb>かった</>,The water was cold,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>面白</><adv>くない</>,Not funny / interesting,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>面白</><verb>かった</>,Was funny / interesting,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>面白</><adv>くな</><verb>かった</>,Was not funny / interesting,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>映画</><obj>は</><adj>面白</><verb>かった</>,The film was interesting,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>つまらな</><adv>くない</>,Not boring,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>つまらな</><verb>かった</>,Was boring,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>つまらな</><adv>くな</><verb>かった</>,Was not boring,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>今日</><obj>の</><noun>授業</><obj>は</><adj>つまらな</><verb>かった</>,Today's class / lesson was boring,-い adjective past tense,jlpt-n5-adjective-conjunction
+<noun>今日</><obj>の</><noun>バレエ</><obj>の</><noun>レッスン</><obj>は</><adj>つまんな</><verb>かった</>,Today's lesson for ballet was boring (informal),-い adjective past tense\nレッスン is more for private class\nつまんない is a casual way of saying つまらない,jlpt-n5-adjective-conjunction
+<noun>みさ先生</><obj>の</><noun>授業</><obj>は</><adv>いつま</><adj>面白い</><verb>です</>,Misa sensei's class is always interesting,-い adjective,jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>じゃない</>,Not easy (informal),-な adjective negation (informal),jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>ではありません</>,Not easy (formal),-な adjective negation (formal),jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>だった</>,Was easy (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>でした</>,Was easy (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>じゃなかった</>,Was not easy (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>簡単</><verb>ではありませんでした</>,Was not easy (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<noun>テスト</><obj>は</><adj>簡単</><verb>じゃなかった</>,The test was not easy (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<noun>テスト</><obj>は</><adj>簡単</><verb>ではありませんでした</>,The test was not easy (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<adj>難し</><adv>くない</>,Not difficult,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>難し</><verb>かった</>,Was difficult,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>難し</><adv>くな</><verb>かった</>,Was not difficult,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<det>この</><noun>質問</><obj>は</><adj>少し難しい</>,This question is a little (少) difficult,-い adjective,jlpt-n5-adjective-conjunction
+<det>この</><noun>質問</><obj>は</><adj>ちょっと難しい</>,This question is a little (ち) difficult,-い adjective,jlpt-n5-adjective-conjunction
+<adj>大変</><verb>です</><end>ね</>,It must be tough for you,大変な is another way to say difficult / hardship / tough,jlpt-n5-adjective-conjunction
+<adj>大変</><verb>じゃない</>,Not hard / tough (informal),-な adjective negation (informal),jlpt-n5-adjective-conjunction
+<adj>大変</><verb>ではありません</>,Not hard / tough (formal),-な adjective negation (formal),jlpt-n5-adjective-conjunction
+<adj>大変</><verb>だった</>,Was hard / tough (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>大変</><verb>でした</>,Was hard / tough (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>大変</><verb>じゃなかった</>,Was not hard / tough (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>大変</><verb>ではありませんでした</>,Was not hard / tough (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<noun>今日</><obj>は</><noun>仕事</><obj>が</><adj>大変</><verb>だった</>,Work was tough today (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>楽し</><adv>くない</>,Not fun,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>楽し</><verb>かった</>,Was fun,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>楽し</><adv>くな</><verb>かった</>,Was not fun,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>旅行</><obj>は</><adj>楽し</><verb>かった</>,The trip was fun,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>暇</><verb>じゃない</>,Not bored / free (informal),-な adjective negation (informal),jlpt-n5-adjective-conjunction
+<adj>暇</><verb>ではありません</>,Not bored / free (formal),-な adjective negation (formal),jlpt-n5-adjective-conjunction
+<adj>暇</><verb>だった</>,Was bored (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<adj>暇</><verb>でした</>,Was bored (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>暇</><verb>じゃなかった</>,Was not bored / free (informal),-な adjective negation past tense (informal),jlpt-n5-adjective-conjunction
+<adj>暇</><verb>ではありませんでした</>,Was not bored / free (formal),-な adjective negation past tense (formal),jlpt-n5-adjective-conjunction
+<noun>今日</><obj>は</><adj>暇</><verb>だった</>,I was bored today (informal),-な adjective past tense (informal),jlpt-n5-adjective-conjunction
+<noun>今日</><obj>は</><adj>暇</><verb>でした</>,I was bored today (formal),-な adjective past tense (formal),jlpt-n5-adjective-conjunction
+<adj>忙し</><adv>くない</>,Not busy,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>忙し</><adv>かった</>,Was busy,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>忙し</><adv>くな</><verb>かった</>,Was not busy,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>今日</><obj>は</><noun>一日中</><adj>とても</><adj>忙し</><verb>かった</>,I was very busy the whole day today,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>本当に忙し</><verb>かった</>,I was really busy,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>長</><adv>くない</>,Not long,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>長</><verb>かった</>,Was long,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>長</><adv>くな</><verb>かった</>,Was not long,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>待ち時間</><obj>が</><adj>長</><verb>かった</>,The waiting time was long,"-い adjective past tense\n待ち時間 means waiting time\nCan also use は particle, but が shows what exactly was long.",jlpt-n5-adjective-conjunction
+<adj>短</><adv>くない</>,Not short,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>短</><verb>かった</>,Was short,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>短</><adv>くな</><verb>かった</>,Was not short,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>髪</><obj>が</><adj>短</><verb>かった</>,My hair was short,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>近</><adv>くない</>,Not close,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>近</><verb>かった</>,Was close,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>近</><adv>くな</><verb>かった</>,Was not close,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>会社</><obj>は</><noun>駅</><obj>から</><adj>近い</>,The company is close from the station,-い adjective\nから means from - have not learned this yet,jlpt-n5-adjective-conjunction
+<noun>会社</><obj>は</><noun>駅</><obj>に</><adj>近い</>,The company is close to the station,-い adjective\nに can mean to - have not learned this yet,jlpt-n5-adjective-conjunction
+<adj>遠</><adv>くない</>,Not long,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>遠</><verb>かった</>,Was long,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>遠</><adv>くな</><verb>かった</>,Was not long,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>家</><obj>から</><adj>遠</><verb>かった</>,It was far from home,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>早</><adv>くない</>,Not early (time),-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>速</><adv>くない</>,Not early (speed),-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>早</><verb>かった</>,Was early (time),-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>速</><verb>かった</>,Was early (speed),-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>早</><adv>くな</><verb>かった</>,Was not early (time),-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<adj>速</><adv>くな</><verb>かった</>,Was not early (speed),-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>足</><obj>が</><adj>速い</>,He runs fast (lit. his legs are fast),-い adjective,jlpt-n5-adjective-conjunction
+<adv>早く</><verb>起きる</>,I wake up early,-い adjective to -く adverb,jlpt-n5-adjective-conjunction
+<adj>遅</><adv>くない</>,Not late / slow,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>遅</><verb>かった</>,Was late / slow,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>遅</><adv>くな</><verb>かった</>,Was not late / slow,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>バス</><obj>は</><noun>新幹線</><obj>より</><adj>遅</><verb>です</>,Bus is slower than bullet train,より means than,jlpt-n5-adjective-conjunction
+<adv>遅く</><verb>着いた</>,I arrived late,-い adjective to -く adverb,jlpt-n5-adjective-conjunction
+<adv>着く</><obj>のが</><adj>遅</><verb>かった</>,I arrived late (lit. Arriving was late),-い adjective to -く adverb,jlpt-n5-adjective-conjunction
+<adj>高</><adv>くない</>,Not high,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>高</><verb>かった</>,Was high,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>高</><adv>くな</><verb>かった</>,Was not high,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>航空券</><obj>は</><adj>高</><verb>かった</>,The flight ticket was expensive,-い adjective past tense,jlpt-n5-adjective-conjunction
+<noun>兄</><obj>は</><adj>背が高い</>,My older brother is tall,-い adjective,jlpt-n5-adjective-conjunction
+<adj>低</><adv>くない</>,Not short,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>低</><verb>かった</>,Was short,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>低</><adv>くな</><verb>かった</>,Was not short,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<noun>妹</><obj>は</><adj>背が低い</>,My younger sister is short,-い adjective,jlpt-n5-adjective-conjunction
+<adj>安</><adv>くない</>,Not cheap,-い adjective negation,jlpt-n5-adjective-conjunction
+<adj>安</><verb>かった</>,Was cheap,-い adjective past tense,jlpt-n5-adjective-conjunction
+<adj>安</><adv>くな</><verb>かった</>,Was not cheap,-い adjective negation past tense,jlpt-n5-adjective-conjunction
+<det>この</><noun>靴</><obj>は</><adj>安</><adv>くな</><verb>かった</>,These shoes were not cheap,-い adjective past tense,jlpt-n5-adjective-conjunction

@@ -13,7 +13,7 @@ from jplearning.constants import ALL_POS, COLORS
 wk_df = jph.get_vocab_df(os.getenv("WANIKANI"), type="kanji")
 wk_df = wk_df[wk_df.srs_stage > 1]
 known_kanji = set(wk_df.characters.tolist())
-lesson_glob = sorted(glob(str(jpl.external_dir() / "misa/lesson*.csv")))
+lesson_glob = sorted(glob(str(jpl.external_dir() / "misa/*.csv")))
 df = pd.concat([pd.read_csv(i) for i in lesson_glob])
 jph.sanity_check_notes(df.japanese)
 
