@@ -1,1 +1,4 @@
 wanikani-api==0.5.1
+pandas
+MeCab
+pykakasi
